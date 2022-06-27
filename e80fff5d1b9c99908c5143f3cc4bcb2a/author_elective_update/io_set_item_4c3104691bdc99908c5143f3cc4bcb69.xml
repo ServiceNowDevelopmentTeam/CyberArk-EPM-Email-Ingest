@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Copy of Request For Information">b3214ca51bdc99908c5143f3cc4bcb19</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-24 18:05:59</sys_created_on>
+        <sys_id>4c3104691bdc99908c5143f3cc4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requestor Auto Fill Read Only Func.Copy of Request For Information</sys_name>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name>io_set_item_4c3104691bdc99908c5143f3cc4bcb69</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-06-24 18:05:59</sys_updated_on>
+        <variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>io_set_item_4c3104691bdc99908c5143f3cc4bcb69</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Copy of Request For Information">b3214ca51bdc99908c5143f3cc4bcb19</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-06-24 18:05:59</sys_created_on><sys_id>4c3104691bdc99908c5143f3cc4bcb69</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requestor Auto Fill Read Only Func.Copy of Request For Information</sys_name><sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package><sys_policy/><sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope><sys_update_name>io_set_item_4c3104691bdc99908c5143f3cc4bcb69</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-06-24 18:05:59</sys_updated_on><variable_set display_value="Requestor Auto Fill Read Only Func">36bf0bc01ba274108c5143f3cc4bcb8b</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1840307535</payload_hash>
+        <record_name>b3214ca51bdc99908c5143f3cc4bcb19</record_name>
+        <reverted_from/>
+        <source>dd4fffd51b9c99908c5143f3cc4bcb1f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-24 18:06:00</sys_created_on>
+        <sys_id>c03104691bdc99908c5143f3cc4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18196e467dd0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-06-24 18:06:00</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>c8310469e9dc99903f48511d0446df71</update_guid>
+        <update_guid_history>c8310469e9dc99903f48511d0446df71:1840307535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CyberArk EPM Request">fe2f48211bd0d9908c5143f3cc4bcb45</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-24 19:07:04</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>2c6fecbae89f4b888f6c616330ff2610</sys_id>
+        <sys_metadata>4c3104691bdc99908c5143f3cc4bcb69</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requestor Auto Fill Read Only Func.Copy of Request For Information</sys_name>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_scope_delete display_value="">1666682108514e2494d046720187ce84</sys_scope_delete>
+        <sys_update_name>io_set_item_4c3104691bdc99908c5143f3cc4bcb69</sys_update_name>
+        <sys_update_version display_value="io_set_item_4c3104691bdc99908c5143f3cc4bcb69">c03104691bdc99908c5143f3cc4bcb72</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-06-24 19:07:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
