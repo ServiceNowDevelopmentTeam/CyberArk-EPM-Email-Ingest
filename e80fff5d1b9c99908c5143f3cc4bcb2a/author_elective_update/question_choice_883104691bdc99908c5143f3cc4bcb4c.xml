@@ -46,7 +46,7 @@
         <update_guid_history>083104696cdc9990e713f20e1bb4af4e:-1647534777</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Security">2341cc691bdc99908c5143f3cc4bcb1b</sys_audit_delete>
+        <sys_audit_delete display_value="">2341cc691bdc99908c5143f3cc4bcb1b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:06:30</sys_created_on>

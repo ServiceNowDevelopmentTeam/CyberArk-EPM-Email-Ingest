@@ -15,6 +15,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="CyberArk EPM Request">2c174c611b50d9908c5143f3cc4bcbeb</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
@@ -42,7 +43,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Terry Lillo">b4bad8641be3a010e7004229bc4bcb57</owner>
+        <owner display_value="">548c98a01be7a490346ffd951a4bcbfa</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b3214ca51bdc99908c5143f3cc4bcb19&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -65,7 +66,7 @@
         <sys_id>b3214ca51bdc99908c5143f3cc4bcb19</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>CyberArk EPM Request</sys_name>
-        <sys_package display_value="Request for Information" source="x_apig_request_for">32bddb111bd499908c5143f3cc4bcb06</sys_package>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sc_cat_item_b3214ca51bdc99908c5143f3cc4bcb19</sys_update_name>

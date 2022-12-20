@@ -6,7 +6,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch7b-04-19-2022_04-26-2022_2245.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -16,6 +15,7 @@
         <name>Email Ingest - CyberArk EPM</name>
         <natlang/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <remote_trigger_id>aef1802d1bdc99908c5143f3cc4bcbe3</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6250c4691b9c99908c5143f3cc4bcbb3</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Email Ingest - CyberArk EPM</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_flow_6250c4691b9c99908c5143f3cc4bcbb3</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-27 14:48:11</sys_updated_on>
+        <sys_updated_on>2022-07-15 15:37:37</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6250c4691b9c99908c5143f3cc4bcbb3"/>
@@ -63,6 +63,7 @@
         <sys_updated_on>2022-06-27 14:48:10</sys_updated_on>
         <target_table/>
     </sys_flow_email_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6250c4691b9c99908c5143f3cc4bcbb3"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN719084e51bdc99908c5143f3cc4bcb7a"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -111,6 +112,7 @@
         <value/>
         <variable display_value="Order">60b307c7c7312300f4eba1425a97637e</variable>
     </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6250c4691b9c99908c5143f3cc4bcbb3"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN2e50c4691b9c99908c5143f3cc4bcbb4"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>6250c4691b9c99908c5143f3cc4bcbb3</id>
@@ -123,6 +125,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:02:20</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2e50c4691b9c99908c5143f3cc4bcbb4"/>
     <sys_hub_flow_input action="delete_multiple" query="model=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN319084e51bdc99908c5143f3cc4bcb4b,399084e51bdc99908c5143f3cc4bcb70,759044e51bdc99908c5143f3cc4bcbed,759084e51bdc99908c5143f3cc4bcb51,799084e51bdc99908c5143f3cc4bcb0c,ad9044e51bdc99908c5143f3cc4bcbe5,bd9084e51bdc99908c5143f3cc4bcb12"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -155,6 +158,7 @@
         <element>user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -201,6 +205,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -236,6 +241,7 @@
         <element>from_address</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -282,6 +288,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -317,6 +324,7 @@
         <element>target_table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -363,6 +371,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -398,6 +407,7 @@
         <element>target_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -444,6 +454,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -479,6 +490,7 @@
         <element>body_text</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -525,6 +537,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -560,6 +573,7 @@
         <element>inbound_email</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -609,6 +623,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -644,6 +659,7 @@
         <element>subject</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -690,10 +706,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=6250c4691b9c99908c5143f3cc4bcbb3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6250c4691b9c99908c5143f3cc4bcbb3"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN5fd2ccad1bdc99908c5143f3cc4bcb34,73840ce11b10d9908c5143f3cc4bcb8f,9b6558e51b14d9908c5143f3cc4bcb43,b1f1002d1bdc99908c5143f3cc4bcb7b,f4fbc0211b90d9908c5143f3cc4bcbb5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -701,7 +720,6 @@
         <action_type display_value="String Searching">72cee8e51b08b8108c5143f3cc4bcb3d</action_type>
         <action_type_parent/>
         <comment>Get application name</comment>
-        <compiled_snapshot>72cee8e51b08b8108c5143f3cc4bcb3d</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">6250c4691b9c99908c5143f3cc4bcbb3</flow>
         <order>7</order>
@@ -710,10 +728,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:13:19</sys_created_on>
         <sys_id>5fd2ccad1bdc99908c5143f3cc4bcb34</sys_id>
-        <sys_mod_count>90</sys_mod_count>
+        <sys_mod_count>100</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-27 14:48:11</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-20 19:47:42</sys_updated_on>
         <ui_id>8663566b-0ee6-45fe-bed4-4ff730c9ba15</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5fd2ccad1bdc99908c5143f3cc4bcb34"/>
@@ -782,13 +800,14 @@
         <table>var__m_sys_hub_action_input_72cee8e51b08b8108c5143f3cc4bcb3d</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fd2ccad1bdc99908c5143f3cc4bcb34"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fd2ccad1bdc99908c5143f3cc4bcb34"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment>Look up user from client name in email</comment>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">6250c4691b9c99908c5143f3cc4bcbb3</flow>
         <order>4</order>
@@ -797,10 +816,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:20:42</sys_created_on>
         <sys_id>73840ce11b10d9908c5143f3cc4bcb8f</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>96</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-27 14:48:11</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-20 19:47:42</sys_updated_on>
         <ui_id>ede83691-a8aa-4f99-883e-265c1ede43ac</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=73840ce11b10d9908c5143f3cc4bcb8f"/>
@@ -843,13 +862,14 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=73840ce11b10d9908c5143f3cc4bcb8f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=73840ce11b10d9908c5143f3cc4bcb8f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Submit Catalog Item Request">c7a04c607312001098e194596bf6a72a</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">6250c4691b9c99908c5143f3cc4bcbb3</flow>
         <order>14</order>
@@ -858,10 +878,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 19:34:24</sys_created_on>
         <sys_id>9b6558e51b14d9908c5143f3cc4bcb43</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-27 14:48:11</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-20 19:47:42</sys_updated_on>
         <ui_id>85174966-f534-4ea7-b12d-5d73cbef3b13</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9b6558e51b14d9908c5143f3cc4bcb43"/>
@@ -956,13 +976,14 @@
         <table>var__m_sys_hub_action_input_c7a04c607312001098e194596bf6a72a</table>
         <value>{{4ecaa9ec-20b5-4c72-8b02-6b19ecd1af14.Record}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9b6558e51b14d9908c5143f3cc4bcb43"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9b6558e51b14d9908c5143f3cc4bcb43"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="String Searching">72cee8e51b08b8108c5143f3cc4bcb3d</action_type>
         <action_type_parent/>
         <comment>Get client name</comment>
-        <compiled_snapshot>72cee8e51b08b8108c5143f3cc4bcb3d</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">6250c4691b9c99908c5143f3cc4bcbb3</flow>
         <order>1</order>
@@ -971,10 +992,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:23</sys_created_on>
         <sys_id>b1f1002d1bdc99908c5143f3cc4bcb7b</sys_id>
-        <sys_mod_count>106</sys_mod_count>
+        <sys_mod_count>116</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-27 14:48:10</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-20 19:47:42</sys_updated_on>
         <ui_id>b020db11-f0c3-4c9b-8378-89b05ce86255</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1f1002d1bdc99908c5143f3cc4bcb7b"/>
@@ -1043,13 +1064,14 @@
         <table>var__m_sys_hub_action_input_72cee8e51b08b8108c5143f3cc4bcb3d</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1f1002d1bdc99908c5143f3cc4bcb7b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b1f1002d1bdc99908c5143f3cc4bcb7b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment>Look up requestor</comment>
-        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">6250c4691b9c99908c5143f3cc4bcbb3</flow>
         <order>12</order>
@@ -1058,10 +1080,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:53:00</sys_created_on>
         <sys_id>f4fbc0211b90d9908c5143f3cc4bcbb5</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-27 14:48:11</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-12-20 19:47:42</sys_updated_on>
         <ui_id>4ecaa9ec-20b5-4c72-8b02-6b19ecd1af14</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f4fbc0211b90d9908c5143f3cc4bcbb5"/>
@@ -1104,6 +1126,9 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4fbc0211b90d9908c5143f3cc4bcbb5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4fbc0211b90d9908c5143f3cc4bcbb5"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6250c4691b9c99908c5143f3cc4bcbb3"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN1c8688ed1b10d9908c5143f3cc4bcbf7,1c8688ed1b10d9908c5143f3cc4bcbfb,27840ce11b10d9908c5143f3cc4bcb76,548688ed1b10d9908c5143f3cc4bcbe7,704398ad1bd0d9908c5143f3cc4bcb6b,8105cc251b10d9908c5143f3cc4bcb4f,8905cc251b10d9908c5143f3cc4bcb6b,c905cc251b10d9908c5143f3cc4bcb43,d88688ed1b10d9908c5143f3cc4bcbfe"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">948688ed1b10d9908c5143f3cc4bcbf7</block>
@@ -1176,6 +1201,8 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c8688ed1b10d9908c5143f3cc4bcbf7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c8688ed1b10d9908c5143f3cc4bcbf7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">948688ed1b10d9908c5143f3cc4bcbfb</block>
         <comment>Add application name to short description</comment>
@@ -1220,6 +1247,8 @@
         <table>var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3</table>
         <value>{{flow_variable.short_description}} - {{8663566b-0ee6-45fe-bed4-4ff730c9ba15.outstring}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c8688ed1b10d9908c5143f3cc4bcbfb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c8688ed1b10d9908c5143f3cc4bcbfb"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">6b840ce11b10d9908c5143f3cc4bcb75</block>
         <comment/>
@@ -1291,6 +1320,8 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=27840ce11b10d9908c5143f3cc4bcb76"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=27840ce11b10d9908c5143f3cc4bcb76"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d88688ed1b10d9908c5143f3cc4bcbe6</block>
         <comment>Start building short description</comment>
@@ -1336,6 +1367,8 @@
         <variable display_value="Short Description">88d548e91b10d9908c5143f3cc4bcb8d</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3^id=548688ed1b10d9908c5143f3cc4bcbe7"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=548688ed1b10d9908c5143f3cc4bcbe7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=548688ed1b10d9908c5143f3cc4bcbe7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b44398ad1bd0d9908c5143f3cc4bcb6a</block>
         <comment>Set description</comment>
@@ -1380,6 +1413,8 @@
         <table>var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3</table>
         <value>{{fd_transform:d1b21ac1-68bc-437f-9b45-5647a71b3b5c}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=704398ad1bd0d9908c5143f3cc4bcb6b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=704398ad1bd0d9908c5143f3cc4bcb6b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c905cc251b10d9908c5143f3cc4bcb4e</block>
         <comment/>
@@ -1451,6 +1486,8 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8105cc251b10d9908c5143f3cc4bcb4f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8105cc251b10d9908c5143f3cc4bcb4f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c105cc251b10d9908c5143f3cc4bcb6b</block>
         <comment>Set user</comment>
@@ -1519,6 +1556,7 @@
         <table>var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3</table>
         <value>{{ede83691-a8aa-4f99-883e-265c1ede43ac.Record.sys_id}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8905cc251b10d9908c5143f3cc4bcb6b"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8905cc251b10d9908c5143f3cc4bcb6b^sys_idNOT IN4905cc251b10d9908c5143f3cc4bcb6c"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -1641,6 +1679,8 @@
         <table>var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c905cc251b10d9908c5143f3cc4bcb43"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c905cc251b10d9908c5143f3cc4bcb43"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">548688ed1b10d9908c5143f3cc4bcbfe</block>
         <comment>Add user's name to short description</comment>
@@ -1685,6 +1725,8 @@
         <table>var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3</table>
         <value>{{flow_variable.short_description}} - {{flow_variable.user_name}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d88688ed1b10d9908c5143f3cc4bcbfe"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d88688ed1b10d9908c5143f3cc4bcbfe"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN8403dce91bd0d9908c5143f3cc4bcb9d,9c86c8ed1b10d9908c5143f3cc4bcb02,b44398ad1bd0d9908c5143f3cc4bcb71,bb840ce11b10d9908c5143f3cc4bcb95,c003dce91bd0d9908c5143f3cc4bcb9d,d486c8ed1b10d9908c5143f3cc4bcb02,f04398ad1bd0d9908c5143f3cc4bcb71,f3840ce11b10d9908c5143f3cc4bcb95"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>6250c4691b9c99908c5143f3cc4bcbb3</attached_to>
@@ -1854,6 +1896,7 @@
         <element>user_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1900,6 +1943,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1935,6 +1979,7 @@
         <element>description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1981,6 +2026,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2016,6 +2062,7 @@
         <element>short_description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2062,6 +2109,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2097,6 +2145,7 @@
         <element>user_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2143,6 +2192,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2161,11 +2211,11 @@
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>719084e51bdc99908c5143f3cc4bcb6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Record</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_target_record_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:22</sys_updated_on>
         <url/>
@@ -2184,11 +2234,11 @@
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>799084e51bdc99908c5143f3cc4bcb49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Subject</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_subject_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:22</sys_updated_on>
         <url/>
@@ -2207,11 +2257,11 @@
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>7d9044e51bdc99908c5143f3cc4bcbeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Inbound Email</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_inbound_email_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:22</sys_updated_on>
         <url/>
@@ -2230,11 +2280,11 @@
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>b19084e51bdc99908c5143f3cc4bcb0b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_target_table_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:22</sys_updated_on>
         <url/>
@@ -2253,11 +2303,11 @@
         <sys_created_on>2022-06-24 18:03:23</sys_created_on>
         <sys_id>b59084e51bdc99908c5143f3cc4bcb75</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From address</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_from_address_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:23</sys_updated_on>
         <url/>
@@ -2276,11 +2326,11 @@
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>bd9084e51bdc99908c5143f3cc4bcb4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_user_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:22</sys_updated_on>
         <url/>
@@ -2299,22 +2349,25 @@
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>f59084e51bdc99908c5143f3cc4bcb11</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body Text</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3_body_text_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:03:22</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6250c4691b9c99908c5143f3cc4bcbb3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6250c4691b9c99908c5143f3cc4bcbb3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6250c4691b9c99908c5143f3cc4bcbb3"/>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6250c4691b9c99908c5143f3cc4bcbb3^sys_idNOT IN66f1802d1bdc99908c5143f3cc4bcbe4"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"66f1802d1bdc99908c5143f3cc4bcbe4","name":"plan","plan_signature":null}}</plan>
         <plan_id>6250c4691b9c99908c5143f3cc4bcbb3</plan_id>
-        <snapshot>5ef1402d1bdc99908c5143f3cc4bcb5d</snapshot>
+        <snapshot>7a0dca471b33519062e50ed2cd4bcbb9</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:27</sys_created_on>
         <sys_domain>global</sys_domain>
@@ -2327,6 +2380,7 @@
         <sys_updated_on>2022-06-24 18:53:11</sys_updated_on>
         <trigger display_value="">aef1802d1bdc99908c5143f3cc4bcbe3</trigger>
     </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6250c4691b9c99908c5143f3cc4bcbb3"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -2416,6 +2470,7 @@
         <value>userLIKEnoreply114@cyberark.com</value>
         <variable display_value="Email Conditions">18010347c7312300f4eba1425a9763f7</variable>
     </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5ef1402d1bdc99908c5143f3cc4bcb5d"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=5ef1402d1bdc99908c5143f3cc4bcb5d^sys_idNOT IN1af1402d1bdc99908c5143f3cc4bcb5f"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>5ef1402d1bdc99908c5143f3cc4bcb5d</id>
@@ -2428,6 +2483,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:25</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1af1402d1bdc99908c5143f3cc4bcb5f"/>
     <sys_hub_flow_input action="delete_multiple" query="model=5ef1402d1bdc99908c5143f3cc4bcb5d^sys_idNOT IN12f1402d1bdc99908c5143f3cc4bcbee,1ef1402d1bdc99908c5143f3cc4bcbcb,52f1402d1bdc99908c5143f3cc4bcbe3,56f1802d1bdc99908c5143f3cc4bcb29,5ef1402d1bdc99908c5143f3cc4bcb60,6af1802d1bdc99908c5143f3cc4bcb72,96f1802d1bdc99908c5143f3cc4bcb05"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2460,6 +2516,7 @@
         <element>inbound_email</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2509,6 +2566,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2544,6 +2602,7 @@
         <element>target_table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2590,6 +2649,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2625,6 +2685,7 @@
         <element>subject</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2671,6 +2732,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2706,6 +2768,7 @@
         <element>user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2752,6 +2815,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2787,6 +2851,7 @@
         <element>body_text</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2833,6 +2898,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2868,6 +2934,7 @@
         <element>target_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2914,6 +2981,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2949,6 +3017,7 @@
         <element>from_address</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2995,10 +3064,13 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=5ef1402d1bdc99908c5143f3cc4bcb5d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5ef1402d1bdc99908c5143f3cc4bcb5d"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=5ef1402d1bdc99908c5143f3cc4bcb5d^sys_idNOT IN0e0500651b10d9908c5143f3cc4bcbd5,30751ce51b14d9908c5143f3cc4bcb82,4ce200ed1bdc99908c5143f3cc4bcb6d,62f1802d1bdc99908c5143f3cc4bcbbc,d2fb84211b90d9908c5143f3cc4bcbfe"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -3006,7 +3078,6 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment>Look up user from client name in email</comment>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">5ef1402d1bdc99908c5143f3cc4bcb5d</flow>
         <order>4</order>
@@ -3061,13 +3132,14 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0e0500651b10d9908c5143f3cc4bcbd5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0e0500651b10d9908c5143f3cc4bcbd5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Submit Catalog Item Request">c7a04c607312001098e194596bf6a72a</action_type>
         <action_type_parent display_value="Submit Catalog Item Request">bfb5ea807312001098e194596bf6a707</action_type_parent>
         <comment/>
-        <compiled_snapshot>c7a04c607312001098e194596bf6a72a</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">5ef1402d1bdc99908c5143f3cc4bcb5d</flow>
         <order>14</order>
@@ -3174,13 +3246,14 @@
         <table>var__m_sys_hub_action_input_c7a04c607312001098e194596bf6a72a</table>
         <value>{{4ecaa9ec-20b5-4c72-8b02-6b19ecd1af14.Record}}</value>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30751ce51b14d9908c5143f3cc4bcb82"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=30751ce51b14d9908c5143f3cc4bcb82"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="String Searching">72cee8e51b08b8108c5143f3cc4bcb3d</action_type>
         <action_type_parent display_value="String Searching">ca6c64e11b08b8108c5143f3cc4bcb28</action_type_parent>
         <comment>Get application name</comment>
-        <compiled_snapshot>72cee8e51b08b8108c5143f3cc4bcb3d</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">5ef1402d1bdc99908c5143f3cc4bcb5d</flow>
         <order>7</order>
@@ -3261,13 +3334,14 @@
         <table>var__m_sys_hub_action_input_72cee8e51b08b8108c5143f3cc4bcb3d</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4ce200ed1bdc99908c5143f3cc4bcb6d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4ce200ed1bdc99908c5143f3cc4bcb6d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="String Searching">72cee8e51b08b8108c5143f3cc4bcb3d</action_type>
         <action_type_parent display_value="String Searching">ca6c64e11b08b8108c5143f3cc4bcb28</action_type_parent>
         <comment>Get client name</comment>
-        <compiled_snapshot>72cee8e51b08b8108c5143f3cc4bcb3d</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">5ef1402d1bdc99908c5143f3cc4bcb5d</flow>
         <order>1</order>
@@ -3348,13 +3422,14 @@
         <table>var__m_sys_hub_action_input_72cee8e51b08b8108c5143f3cc4bcb3d</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=62f1802d1bdc99908c5143f3cc4bcbbc"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=62f1802d1bdc99908c5143f3cc4bcbbc"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment>Look up requestor</comment>
-        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Email Ingest - CyberArk EPM">5ef1402d1bdc99908c5143f3cc4bcb5d</flow>
         <order>12</order>
@@ -3409,6 +3484,9 @@
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d2fb84211b90d9908c5143f3cc4bcbfe"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d2fb84211b90d9908c5143f3cc4bcbfe"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5ef1402d1bdc99908c5143f3cc4bcb5d"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=5ef1402d1bdc99908c5143f3cc4bcb5d^sys_idNOT IN020500651b10d9908c5143f3cc4bcbe2,05c6c4211b50d9908c5143f3cc4bcbba,420500651b10d9908c5143f3cc4bcbde,8e0500651b10d9908c5143f3cc4bcbd9,9a4310ed1bd0d9908c5143f3cc4bcb09,c9c6c4211b50d9908c5143f3cc4bcbb6,ca0500651b10d9908c5143f3cc4bcbe5,cdc6c4211b50d9908c5143f3cc4bcbbd,cdc6c4211b50d9908c5143f3cc4bcbc0"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c905cc251b10d9908c5143f3cc4bcb4e</block>
@@ -3481,6 +3559,8 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=020500651b10d9908c5143f3cc4bcbe2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=020500651b10d9908c5143f3cc4bcbe2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">948688ed1b10d9908c5143f3cc4bcbf7</block>
         <comment/>
@@ -3552,6 +3632,8 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=05c6c4211b50d9908c5143f3cc4bcbba"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=05c6c4211b50d9908c5143f3cc4bcbba"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">6b840ce11b10d9908c5143f3cc4bcb75</block>
         <comment/>
@@ -3623,6 +3705,8 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=420500651b10d9908c5143f3cc4bcbde"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=420500651b10d9908c5143f3cc4bcbde"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0505cc251b10d9908c5143f3cc4bcb43</block>
         <comment>Default user to system administrator and default description</comment>
@@ -3731,6 +3815,8 @@
         <table>var__m_sys_hub_flow_variable_5ef1402d1bdc99908c5143f3cc4bcb5d</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8e0500651b10d9908c5143f3cc4bcbd9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8e0500651b10d9908c5143f3cc4bcbd9"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b44398ad1bd0d9908c5143f3cc4bcb6a</block>
         <comment>Set description</comment>
@@ -3775,6 +3861,8 @@
         <table>var__m_sys_hub_flow_variable_5ef1402d1bdc99908c5143f3cc4bcb5d</table>
         <value>{{fd_transform:d1b21ac1-68bc-437f-9b45-5647a71b3b5c}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9a4310ed1bd0d9908c5143f3cc4bcb09"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9a4310ed1bd0d9908c5143f3cc4bcb09"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">d88688ed1b10d9908c5143f3cc4bcbe6</block>
         <comment>Start building short description</comment>
@@ -3820,6 +3908,8 @@
         <variable display_value="Short Description">f4c6c4211b50d9908c5143f3cc4bcb7c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_5ef1402d1bdc99908c5143f3cc4bcb5d^id=c9c6c4211b50d9908c5143f3cc4bcbb6"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c9c6c4211b50d9908c5143f3cc4bcbb6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c9c6c4211b50d9908c5143f3cc4bcbb6"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c105cc251b10d9908c5143f3cc4bcb6b</block>
         <comment>Set user</comment>
@@ -3888,6 +3978,7 @@
         <table>var__m_sys_hub_flow_variable_5ef1402d1bdc99908c5143f3cc4bcb5d</table>
         <value>{{ede83691-a8aa-4f99-883e-265c1ede43ac.Record.sys_id}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ca0500651b10d9908c5143f3cc4bcbe5"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ca0500651b10d9908c5143f3cc4bcbe5^sys_idNOT IN8a0500651b10d9908c5143f3cc4bcbe6"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -3946,6 +4037,8 @@
         <table>var__m_sys_hub_flow_variable_5ef1402d1bdc99908c5143f3cc4bcb5d</table>
         <value>{{flow_variable.short_description}} - {{8663566b-0ee6-45fe-bed4-4ff730c9ba15.outstring}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cdc6c4211b50d9908c5143f3cc4bcbbd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cdc6c4211b50d9908c5143f3cc4bcbbd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">548688ed1b10d9908c5143f3cc4bcbfe</block>
         <comment>Add user's name to short description</comment>
@@ -3990,6 +4083,8 @@
         <table>var__m_sys_hub_flow_variable_5ef1402d1bdc99908c5143f3cc4bcb5d</table>
         <value>{{flow_variable.short_description}} - {{flow_variable.user_name}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=cdc6c4211b50d9908c5143f3cc4bcbc0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cdc6c4211b50d9908c5143f3cc4bcbc0"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=5ef1402d1bdc99908c5143f3cc4bcb5d^sys_idNOT IN2dc608211b50d9908c5143f3cc4bcbab,3e4350ed1bd0d9908c5143f3cc4bcb66,560540651b10d9908c5143f3cc4bcb60,69c608211b50d9908c5143f3cc4bcbab,920540651b10d9908c5143f3cc4bcb60,b24350ed1bd0d9908c5143f3cc4bcb5a,fe4350ed1bd0d9908c5143f3cc4bcb59,fe4350ed1bd0d9908c5143f3cc4bcb66"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>5ef1402d1bdc99908c5143f3cc4bcb5d</attached_to>
@@ -4159,6 +4254,7 @@
         <element>user_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4205,6 +4301,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4240,6 +4337,7 @@
         <element>description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4286,6 +4384,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4321,6 +4420,7 @@
         <element>user_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4367,6 +4467,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4402,6 +4503,7 @@
         <element>short_description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4448,6 +4550,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4466,11 +4569,11 @@
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>16f1402d1bdc99908c5143f3cc4bcbbb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body Text</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_body_text_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:25</sys_updated_on>
         <url/>
@@ -4489,11 +4592,11 @@
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>16f1802d1bdc99908c5143f3cc4bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From address</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_from_address_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:25</sys_updated_on>
         <url/>
@@ -4512,11 +4615,11 @@
         <sys_created_on>2022-06-24 18:09:26</sys_created_on>
         <sys_id>1af1802d1bdc99908c5143f3cc4bcb6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_user_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:26</sys_updated_on>
         <url/>
@@ -4535,11 +4638,11 @@
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>56f1802d1bdc99908c5143f3cc4bcb01</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Inbound Email</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_inbound_email_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:10:53</sys_updated_on>
         <url/>
@@ -4558,11 +4661,11 @@
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>5af1402d1bdc99908c5143f3cc4bcbd2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_target_table_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:25</sys_updated_on>
         <url/>
@@ -4581,11 +4684,11 @@
         <sys_created_on>2022-06-24 18:09:26</sys_created_on>
         <sys_id>6af1802d1bdc99908c5143f3cc4bcb92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Record</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_target_record_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:26</sys_updated_on>
         <url/>
@@ -4604,18 +4707,22 @@
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>def1402d1bdc99908c5143f3cc4bcbe9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Subject</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d_subject_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-24 18:09:25</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_flow action="update">
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5ef1402d1bdc99908c5143f3cc4bcb5d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5ef1402d1bdc99908c5143f3cc4bcb5d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5ef1402d1bdc99908c5143f3cc4bcb5d"/>
+    <sys_hub_flow action="UPDATE">
         <sys_id>6250c4691b9c99908c5143f3cc4bcbb3</sys_id>
         <latest_snapshot>5ef1402d1bdc99908c5143f3cc4bcb5d</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch3-10-26-2022_11-03-2022_2313.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

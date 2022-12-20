@@ -29,19 +29,19 @@
         <source>e470cb131b3301108c5143f3cc4bcbef</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-05 21:59:35</sys_created_on>
         <sys_id>c15e846d1b90d9908c5143f3cc4bcbcc</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>18135e16d580000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-07-15 15:37:41</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>815e846d6f90d9900fc16213e374b9cc</update_guid>
         <update_guid_history>815e846d6f90d9900fc16213e374b9cc:-1570953803</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Copy of Request For Information.SNC External">455e846d1b90d9908c5143f3cc4bcbce</sys_audit_delete>
+        <sys_audit_delete display_value="">455e846d1b90d9908c5143f3cc4bcbce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 19:03:24</sys_created_on>

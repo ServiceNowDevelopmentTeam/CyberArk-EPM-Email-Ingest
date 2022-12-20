@@ -42,7 +42,7 @@
         <update_guid_history>97d1982901d0d990b01b0380d7cfa925:19782199</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="CyberArk EPM">ebf414a51b14d9908c5143f3cc4bcbce</sys_audit_delete>
+        <sys_audit_delete display_value="">ebf414a51b14d9908c5143f3cc4bcbce</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 19:32:31</sys_created_on>

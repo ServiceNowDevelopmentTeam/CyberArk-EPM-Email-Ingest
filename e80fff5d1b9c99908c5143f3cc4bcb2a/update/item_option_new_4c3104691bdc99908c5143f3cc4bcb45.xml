@@ -41,6 +41,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>short_description</name>
         <order>300</order>
+        <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
@@ -70,7 +71,7 @@
         <sys_id>4c3104691bdc99908c5143f3cc4bcb45</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Short Description</sys_name>
-        <sys_package display_value="Request for Information" source="x_apig_request_for">32bddb111bd499908c5143f3cc4bcb06</sys_package>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>item_option_new_4c3104691bdc99908c5143f3cc4bcb45</sys_update_name>

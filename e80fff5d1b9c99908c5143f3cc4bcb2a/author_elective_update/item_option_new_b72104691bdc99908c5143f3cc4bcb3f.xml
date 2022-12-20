@@ -156,7 +156,7 @@
         <update_guid_history>cc31046976dc9990ec9db9e6d9202144:-1502007967</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Category">6b41cc691bdc99908c5143f3cc4bcb22</sys_audit_delete>
+        <sys_audit_delete display_value="">6b41cc691bdc99908c5143f3cc4bcb22</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:06:30</sys_created_on>
@@ -165,7 +165,7 @@
         <sys_metadata>b72104691bdc99908c5143f3cc4bcb3f</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Category</sys_name>
-        <sys_package display_value="Request for Information" source="x_apig_request_for">32bddb111bd499908c5143f3cc4bcb06</sys_package>
+        <sys_package display_value="">32bddb111bd499908c5143f3cc4bcb06</sys_package>
         <sys_parent display_value="CyberArk EPM Request">b3214ca51bdc99908c5143f3cc4bcb19</sys_parent>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
