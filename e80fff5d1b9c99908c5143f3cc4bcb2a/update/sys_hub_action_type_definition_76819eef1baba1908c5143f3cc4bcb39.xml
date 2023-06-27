@@ -13,7 +13,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>parse_excel_attachment</internal_name>
-        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.highlighted_keys}}","label":"action➛Highlighted Keys","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>de82d2271beba1908c5143f3cc4bcb44</master_snapshot>
         <name>Parse CSV Attachment</name>
         <natlang/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>99</sys_mod_count>
         <sys_name>Parse CSV Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_76819eef1baba1908c5143f3cc4bcb39</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:46:39</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:40:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -136,10 +136,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>1a021aa31beba1908c5143f3cc4bcbea</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:46:36</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:40:22</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a021aa31beba1908c5143f3cc4bcbea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -164,18 +164,15 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>5e0296e31beba1908c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:46:36</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:40:22</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
-  // Assume 'attachmentSysId' is the sys_id of the attachment record
   var attachmentSysId = inputs.attachmentSysId;
+  var highlightedKeys = inputs.highlightedKeys;
 
-  // Get the 'columns' input
   var columns = [];
-
-  // Initialize an array to hold the parsed data
   var data = [];
   var dataStrings = [];
 
@@ -193,53 +190,51 @@
         csvLines.push(ln);
       }
 
-      // If 'columns' is empty, take the column names from the first line of the CSV file
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
         columns = csvLines.shift().split(',');
 
-        // Check for and remove a byte order mark in the first column name
         if (columns[0].charCodeAt(0) === 0xFEFF) {
           columns[0] = columns[0].slice(1);
         }
       }
 
       csvLines.forEach(function(line) {
-        // Split the line into columns
         var values = line.split(',');
 
-        // Initialize an object to hold the data for this row
         var rowData = {};
-        var rowString = '';
+        var highlightedRowString = '';
+        var regularRowString = '';
 
-        // Loop through the columns array and set the values on rowData
         columns.forEach(function(column, index) {
-          // Only add the column to rowData if the value is not empty
           if (values[index] &amp;&amp; values[index].trim() !== '') {
             rowData[column] = values[index];
-            rowString += column + ': ' + values[index] + '\n';
+            
+            // Check if the key is in the highlighted keys
+            if (highlightedKeys.indexOf(column) !== -1) {
+              highlightedRowString += column + ': ' + values[index] + '\n';
+            } else {
+              regularRowString += column + ': ' + values[index] + '\n';
+            }
           }
         });
 
-        // Only add the rowData object to the data array if it's not empty
         if (Object.keys(rowData).length &gt; 0) {
           data.push(rowData);
         }
 
+        var rowString = highlightedRowString + '\n\n' + regularRowString;
+
         if (rowString !== '') {
           dataStrings.push(rowString.trim());
-          gs.info("Added row string: " + rowString.trim());
         }
       });
     }
   }
 
-  // Assign the arrays directly to the outputs
   outputs.data = data;
   outputs.datastrings = dataStrings;
-  gs.info("Final dataStrings: " + dataStrings.toString());
 
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1a021aa31beba1908c5143f3cc4bcbea"/>
@@ -280,6 +275,18 @@
         <value>{{action.columns}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>highlightedKeys</field>
+        <id>1a021aa31beba1908c5143f3cc4bcbea</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:23:12</sys_created_on>
+        <sys_id>9c47da7f1ba325908c5143f3cc4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:23:12</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_1a021aa31beba1908c5143f3cc4bcbea</table>
+        <value>{{action.highlighted_keys}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>1a021aa31beba1908c5143f3cc4bcbea</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -293,7 +300,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1a021aa31beba1908c5143f3cc4bcbea^id=1a021aa31beba1908c5143f3cc4bcbea"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1a021aa31beba1908c5143f3cc4bcbea"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN068292271beba1908c5143f3cc4bcbea"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN068292271beba1908c5143f3cc4bcbea,1447da7f1ba325908c5143f3cc4bcb15"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -365,6 +372,89 @@
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-26 19:25:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>highlightedKeys</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">1a021aa31beba1908c5143f3cc4bcbea</model>
+        <model_id>1a021aa31beba1908c5143f3cc4bcbea</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_1a021aa31beba1908c5143f3cc4bcbea</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:23:11</sys_created_on>
+        <sys_id>1447da7f1ba325908c5143f3cc4bcb15</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:26:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -592,7 +682,91 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT INce8292271beba1908c5143f3cc4bcbda"/>
+    <sys_hub_action_input action="delete_multiple" query="model=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN48471a7f1ba325908c5143f3cc4bcb59,ce8292271beba1908c5143f3cc4bcbda"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Highlighted Keys_child0,child_name=highlighted_keys_child0,child_type=string,child_type_label=String,child_uiUniqueId=b14f32e3-d768-41f4-9d80-cecdea9fb847,co_type_name=FD4c471a7f76a3259045ee6e2da5b9bc54,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=30fc9e03-3a09-45d7-b4df-f2c886c51f0a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>highlighted_keys</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Highlighted Keys</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</model>
+        <model_id>76819eef1baba1908c5143f3cc4bcb39</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_76819eef1baba1908c5143f3cc4bcb39</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:23:11</sys_created_on>
+        <sys_id>48471a7f1ba325908c5143f3cc4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:23:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=48471a7f1ba325908c5143f3cc4bcb59"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1038,7 +1212,30 @@
         <sys_updated_on>2023-06-26 19:21:55</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a60296e31beba1908c5143f3cc4bcbf9"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN4e8292271beba1908c5143f3cc4bcbdf"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN08479a7f1ba325908c5143f3cc4bcbfd,4e8292271beba1908c5143f3cc4bcbdf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>highlighted_keys</element>
+        <help/>
+        <hint/>
+        <label>Highlighted Keys</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_76819eef1baba1908c5143f3cc4bcb39</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:23:11</sys_created_on>
+        <sys_id>08479a7f1ba325908c5143f3cc4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:23:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>attachment</element>
         <help/>
@@ -1161,17 +1358,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c782d2271beba1908c5143f3cc4bcbd1","name":"plan","plan_signature":null}}</plan>
-        <snapshot>2f6562271b6fa1908c5143f3cc4bcbeb</snapshot>
+        <snapshot>2c3b12f71be325908c5143f3cc4bcba2</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c782d2271beba1908c5143f3cc4bcbd1</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:46:40</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:40:27</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1185,7 +1382,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>parse_excel_attachment</internal_name>
-        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.highlighted_keys}}","label":"action➛Highlighted Keys","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>Parse CSV Attachment</name>
         <natlang/>
@@ -1198,7 +1395,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de82d2271beba1908c5143f3cc4bcb44</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1206,7 +1403,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:34:29</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:27:01</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1307,10 +1504,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>aa82d2271beba1908c5143f3cc4bcb54</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:46:38</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:40:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa82d2271beba1908c5143f3cc4bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1335,18 +1532,15 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ea82d2271beba1908c5143f3cc4bcb66</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:46:38</sys_updated_on>
+        <sys_updated_on>2023-06-27 14:40:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
-  // Assume 'attachmentSysId' is the sys_id of the attachment record
   var attachmentSysId = inputs.attachmentSysId;
+  var highlightedKeys = inputs.highlightedKeys;
 
-  // Get the 'columns' input
   var columns = [];
-
-  // Initialize an array to hold the parsed data
   var data = [];
   var dataStrings = [];
 
@@ -1364,53 +1558,51 @@
         csvLines.push(ln);
       }
 
-      // If 'columns' is empty, take the column names from the first line of the CSV file
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
         columns = csvLines.shift().split(',');
 
-        // Check for and remove a byte order mark in the first column name
         if (columns[0].charCodeAt(0) === 0xFEFF) {
           columns[0] = columns[0].slice(1);
         }
       }
 
       csvLines.forEach(function(line) {
-        // Split the line into columns
         var values = line.split(',');
 
-        // Initialize an object to hold the data for this row
         var rowData = {};
-        var rowString = '';
+        var highlightedRowString = '';
+        var regularRowString = '';
 
-        // Loop through the columns array and set the values on rowData
         columns.forEach(function(column, index) {
-          // Only add the column to rowData if the value is not empty
           if (values[index] &amp;&amp; values[index].trim() !== '') {
             rowData[column] = values[index];
-            rowString += column + ': ' + values[index] + '\n';
+            
+            // Check if the key is in the highlighted keys
+            if (highlightedKeys.indexOf(column) !== -1) {
+              highlightedRowString += column + ': ' + values[index] + '\n';
+            } else {
+              regularRowString += column + ': ' + values[index] + '\n';
+            }
           }
         });
 
-        // Only add the rowData object to the data array if it's not empty
         if (Object.keys(rowData).length &gt; 0) {
           data.push(rowData);
         }
 
+        var rowString = highlightedRowString + '\n\n' + regularRowString;
+
         if (rowString !== '') {
           dataStrings.push(rowString.trim());
-          gs.info("Added row string: " + rowString.trim());
         }
       });
     }
   }
 
-  // Assign the arrays directly to the outputs
   outputs.data = data;
   outputs.datastrings = dataStrings;
-  gs.info("Final dataStrings: " + dataStrings.toString());
 
-})(inputs, outputs);
-</value>
+})(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=aa82d2271beba1908c5143f3cc4bcb54"/>
@@ -1451,6 +1643,18 @@
         <value>{{action.columns}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>highlightedKeys</field>
+        <id>aa82d2271beba1908c5143f3cc4bcb54</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:27:02</sys_created_on>
+        <sys_id>e4285aff1ba325908c5143f3cc4bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:27:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_aa82d2271beba1908c5143f3cc4bcb54</table>
+        <value>{{action.highlighted_keys}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>aa82d2271beba1908c5143f3cc4bcb54</id>
         <sys_created_by>Terry.Lillo</sys_created_by>
@@ -1464,7 +1668,90 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_aa82d2271beba1908c5143f3cc4bcb54^id=aa82d2271beba1908c5143f3cc4bcb54"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=aa82d2271beba1908c5143f3cc4bcb54"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=aa82d2271beba1908c5143f3cc4bcb54^sys_idNOT IN6682d2271beba1908c5143f3cc4bcb58"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=aa82d2271beba1908c5143f3cc4bcb54^sys_idNOT IN2c285aff1ba325908c5143f3cc4bcb2c,6682d2271beba1908c5143f3cc4bcb58"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>highlightedKeys</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>highlightedKeys</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">aa82d2271beba1908c5143f3cc4bcb54</model>
+        <model_id>aa82d2271beba1908c5143f3cc4bcb54</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_aa82d2271beba1908c5143f3cc4bcb54</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:27:02</sys_created_on>
+        <sys_id>2c285aff1ba325908c5143f3cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:27:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1763,7 +2050,91 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN2a82d2271beba1908c5143f3cc4bcb4e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN18285aff1ba325908c5143f3cc4bcb21,2a82d2271beba1908c5143f3cc4bcb4e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Highlighted Keys_child0,child_name=highlighted_keys_child0,child_type=string,child_type_label=String,child_uiUniqueId=b14f32e3-d768-41f4-9d80-cecdea9fb847,co_type_name=FD18285affffa325902d8b6b9556246b1d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=30fc9e03-3a09-45d7-b4df-f2c886c51f0a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>highlighted_keys</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Highlighted Keys</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Parse CSV Attachment">de82d2271beba1908c5143f3cc4bcb44</model>
+        <model_id>de82d2271beba1908c5143f3cc4bcb44</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_de82d2271beba1908c5143f3cc4bcb44</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:27:02</sys_created_on>
+        <sys_id>18285aff1ba325908c5143f3cc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:27:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=18285aff1ba325908c5143f3cc4bcb21"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2209,7 +2580,7 @@
         <sys_updated_on>2023-06-26 19:24:07</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e282d2271beba1908c5143f3cc4bcb7b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN2a82d2271beba1908c5143f3cc4bcb52"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN2a82d2271beba1908c5143f3cc4bcb52,a4285aff1ba325908c5143f3cc4bcb25"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>attachment</element>
         <help/>
@@ -2230,6 +2601,29 @@
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-26 19:24:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>highlighted_keys</element>
+        <help/>
+        <hint/>
+        <label>Highlighted Keys</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_de82d2271beba1908c5143f3cc4bcb44</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:27:02</sys_created_on>
+        <sys_id>a4285aff1ba325908c5143f3cc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-06-27 14:27:02</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
