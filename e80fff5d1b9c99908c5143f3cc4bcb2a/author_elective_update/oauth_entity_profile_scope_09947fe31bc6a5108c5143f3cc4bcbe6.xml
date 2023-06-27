@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope">
+    <oauth_entity_profile_scope action="DELETE">
+        <oauth_entity_profile display_value="Microsoft Teams Graph Authorization Code Profile.2">09947fe31bc6a5108c5143f3cc4bcbe0</oauth_entity_profile>
+        <oauth_entity_scope display_value="AdministrativeUnit.ReadWrite.All">b0947fe31bc6a5108c5143f3cc4bcbb2</oauth_entity_scope>
+        <sys_class_name>oauth_entity_profile_scope</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-04-13 12:58:16</sys_created_on>
+        <sys_id>09947fe31bc6a5108c5143f3cc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>09947fe31bc6a5108c5143f3cc4bcbe0</sys_name>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name>oauth_entity_profile_scope_09947fe31bc6a5108c5143f3cc4bcbe6</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-04-13 12:58:16</sys_updated_on>
+    </oauth_entity_profile_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>oauth_entity_profile_scope_09947fe31bc6a5108c5143f3cc4bcbe6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile_scope"><oauth_entity_profile_scope action="INSERT_OR_UPDATE"><oauth_entity_profile display_value="Microsoft Teams Graph Authorization Code Profile.2">09947fe31bc6a5108c5143f3cc4bcbe0</oauth_entity_profile><oauth_entity_scope display_value="AdministrativeUnit.ReadWrite.All">b0947fe31bc6a5108c5143f3cc4bcbb2</oauth_entity_scope><sys_class_name>oauth_entity_profile_scope</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2023-04-13 12:58:16</sys_created_on><sys_id>09947fe31bc6a5108c5143f3cc4bcbe6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>09947fe31bc6a5108c5143f3cc4bcbe0</sys_name><sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package><sys_policy/><sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope><sys_update_name>oauth_entity_profile_scope_09947fe31bc6a5108c5143f3cc4bcbe6</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2023-04-13 12:58:16</sys_updated_on></oauth_entity_profile_scope></record_update>]]></payload>
+        <payload_hash>-1006141853</payload_hash>
+        <record_name>09947fe31bc6a5108c5143f3cc4bcbe0</record_name>
+        <reverted_from/>
+        <source>37a0bae21b39291062e50ed2cd4bcbd2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-04-13 12:58:16</sys_created_on>
+        <sys_id>c1947fe31bc6a5108c5143f3cc4bcbe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877ab1f89f0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-04-13 12:58:16</sys_updated_on>
+        <type>OAuth Entity Profile Scope</type>
+        <update_guid>c9947fe317c6a51068ab3392ac6bdae7</update_guid>
+        <update_guid_history>c9947fe317c6a51068ab3392ac6bdae7:-1006141853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Microsoft Teams Graph Authorization Code Profile.2">51177f6b1bc6a5108c5143f3cc4bcb21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-04-13 13:09:13</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile_scope">oauth_entity_profile_scope</sys_db_object>
+        <sys_id>0df2fe45cc4e45c88113a0d94d44b2c4</sys_id>
+        <sys_metadata>09947fe31bc6a5108c5143f3cc4bcbe6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>09947fe31bc6a5108c5143f3cc4bcbe0</sys_name>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_scope_delete display_value="">1666682108514e2494d046720187ce84</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_scope_09947fe31bc6a5108c5143f3cc4bcbe6</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_scope_09947fe31bc6a5108c5143f3cc4bcbe6">c1947fe31bc6a5108c5143f3cc4bcbe8</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-04-13 13:09:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
