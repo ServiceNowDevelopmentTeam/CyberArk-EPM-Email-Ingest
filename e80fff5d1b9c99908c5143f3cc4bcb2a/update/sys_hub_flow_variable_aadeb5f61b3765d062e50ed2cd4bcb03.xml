@@ -2,7 +2,7 @@
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=69db82b0-28cc-4f97-88c8-9fffb97950c8</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b55923d4-4547-4fc3-9172-4541c78871fd</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>user_sys_id</element>
+        <element>user_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -35,13 +35,13 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>User Sys ID</label>
+        <label>User Name</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Email Ingest - CyberArk EPM Catch Email">6250c4691b9c99908c5143f3cc4bcbb3</model>
-        <model_id>6250c4691b9c99908c5143f3cc4bcbb3</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_variable_6250c4691b9c99908c5143f3cc4bcbb3</name>
+        <model display_value="Email Ingest - CyberArk EPM Catch Email">16de75f61b3765d062e50ed2cd4bcbe3</model>
+        <model_id>16de75f61b3765d062e50ed2cd4bcbe3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_16de75f61b3765d062e50ed2cd4bcbe3</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -58,14 +58,14 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-06-24 18:50:34</sys_created_on>
-        <sys_name>User Sys ID</sys_name>
+        <sys_created_on>2023-07-06 20:18:20</sys_created_on>
+        <sys_name>User Name</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_056bc0ad1b50d9908c5143f3cc4bcbe3</sys_update_name>
+        <sys_update_name>sys_hub_flow_variable_aadeb5f61b3765d062e50ed2cd4bcb03</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-24 18:50:34</sys_updated_on>
+        <sys_updated_on>2023-07-06 20:18:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
