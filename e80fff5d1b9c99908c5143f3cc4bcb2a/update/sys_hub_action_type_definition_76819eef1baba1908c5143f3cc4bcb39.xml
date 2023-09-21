@@ -13,7 +13,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>parse_excel_attachment</internal_name>
-        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.highlighted_keys}}","label":"action➛Highlighted Keys","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.highlighted_keys}}","label":"action➛Highlighted Keys","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].highlightedstrings}}","label":"step➛Script step➛highlightedStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>de82d2271beba1908c5143f3cc4bcb44</master_snapshot>
         <name>Parse CSV Attachment</name>
         <natlang/>
@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
-        <sys_mod_count>99</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Parse CSV Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_76819eef1baba1908c5143f3cc4bcb39</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:25</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:21:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -49,10 +49,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:06</sys_created_on>
         <sys_id>9282d2271beba1908c5143f3cc4bcb13</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:24:06</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">828292271beba1908c5143f3cc4bcbfa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -93,6 +93,18 @@
         <sys_updated_on>2023-06-26 20:34:27</sys_updated_on>
         <table>var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39</table>
         <value>{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>76819eef1baba1908c5143f3cc4bcb39</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:24</sys_created_on>
+        <sys_id>49f475151bd1b5108c5143f3cc4bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
+        <table>var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39</table>
+        <value>{{step[2f6be309-472c-4b9b-8897-f89b890e8173].highlightedstrings}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -136,10 +148,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>1a021aa31beba1908c5143f3cc4bcbea</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:22</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a021aa31beba1908c5143f3cc4bcbea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -164,9 +176,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>5e0296e31beba1908c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:22</sys_updated_on>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -175,12 +187,13 @@
   var columns = [];
   var data = [];
   var dataStrings = [];
+  var highlightedStrings = columns.concat(highlightedKeys);//make highlighted strings = to the keys
 
   var attachment = new GlideRecord('sys_attachment');
   if (attachment.get(attachmentSysId)) {
     var sa = new GlideSysAttachment();
     var attachmentStream = sa.getContentStream(attachmentSysId);
-
+	gs.info('data attachment stream : ' + attachmentStream);
     if (attachmentStream != null) {
       var reader = new GlideTextReader(attachmentStream);
       var ln;
@@ -189,6 +202,7 @@
       while((ln = reader.readLine()) != null) {
         csvLines.push(ln);
       }
+      gs.info('data csvlines : ' + csvLines);
 
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
         columns = csvLines.shift().split(',');
@@ -212,6 +226,9 @@
             // Check if the key is in the highlighted keys
             if (highlightedKeys.indexOf(column) !== -1) {
               highlightedRowString += column + ': ' + values[index] + '\n';
+              //push to the highlighted array
+              //highlightedStrings.push(values[index]); //push only the value
+              highlightedStrings[highlightedKeys.indexOf(column)] = values[index]; //this should make it be ordered in the same way as the input
             } else {
               regularRowString += column + ': ' + values[index] + '\n';
             }
@@ -233,23 +250,14 @@
 
   outputs.data = data;
   outputs.datastrings = dataStrings;
+  outputs.highlightedstrings = highlightedStrings;
+  gs.info('data : ' + data);
+  gs.info('data string : ' + dataStrings);
 
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1a021aa31beba1908c5143f3cc4bcbea"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>1a021aa31beba1908c5143f3cc4bcbea</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-06-26 19:21:55</sys_created_on>
-        <sys_id>1e0296e31beba1908c5143f3cc4bcbee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:21:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>attachmentSysId</field>
         <id>1a021aa31beba1908c5143f3cc4bcbea</id>
@@ -289,12 +297,12 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>1a021aa31beba1908c5143f3cc4bcbea</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-06-26 19:21:55</sys_created_on>
-        <sys_id>d20296e31beba1908c5143f3cc4bcbef</sys_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 13:37:09</sys_created_on>
+        <sys_id>8c3f70cb1b0d751062e50ed2cd4bcb2d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:21:55</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 13:37:09</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -467,7 +475,90 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN120296e31beba1908c5143f3cc4bcbe5,a8a262ef1b2fa1908c5143f3cc4bcbfd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN01f435151bd1b5108c5143f3cc4bcbfe,120296e31beba1908c5143f3cc4bcbe5,a8a262ef1b2fa1908c5143f3cc4bcbfd"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=highlightedStrings_child0,child_name=highlightedstrings_child0,child_type=string,child_type_label=String,child_uiUniqueId=09126670-509c-4292-842e-c841764bed6d,co_type_name=FD09f435156fd1b51047dc6b6b678e9af8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=efb8ee3f-63cb-434d-952f-6d6a0270162c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>highlightedstrings</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>highlightedStrings</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">1a021aa31beba1908c5143f3cc4bcbea</model>
+        <model_id>1a021aa31beba1908c5143f3cc4bcbea</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_1a021aa31beba1908c5143f3cc4bcbea</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:23</sys_created_on>
+        <sys_id>01f435151bd1b5108c5143f3cc4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -635,7 +726,7 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=1a021aa31beba1908c5143f3cc4bcbea"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN1e0296e31beba1908c5143f3cc4bcbea,b4a2a2ef1b2fa1908c5143f3cc4bcb01"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN1e0296e31beba1908c5143f3cc4bcbea,85f475151bd1b5108c5143f3cc4bcb01,b4a2a2ef1b2fa1908c5143f3cc4bcb01"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>data</element>
         <help/>
@@ -656,6 +747,29 @@
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-26 19:21:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>highlightedstrings</element>
+        <help/>
+        <hint/>
+        <label>highlightedStrings</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_1a021aa31beba1908c5143f3cc4bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:24</sys_created_on>
+        <sys_id>85f475151bd1b5108c5143f3cc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -851,7 +965,94 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ce8292271beba1908c5143f3cc4bcbda"/>
-    <sys_hub_action_output action="delete_multiple" query="model=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN5e0296e31beba1908c5143f3cc4bcbf2,828292271beba1908c5143f3cc4bcbfa,b4a2a2ef1b2fa1908c5143f3cc4bcb0a,c28292271beba1908c5143f3cc4bcbfe"/>
+    <sys_hub_action_output action="delete_multiple" query="model=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN49f475151bd1b5108c5143f3cc4bcb28,5e0296e31beba1908c5143f3cc4bcbf2,828292271beba1908c5143f3cc4bcbfa,b4a2a2ef1b2fa1908c5143f3cc4bcb0a,c28292271beba1908c5143f3cc4bcbfe"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=highlighted outputs_child0,child_name=highlighted_outputs_child0,child_type=string,child_type_label=String,child_uiUniqueId=324916b7-aa94-41fb-a24d-c9a77e37b862,co_type_name=FD8df4751580d1b5104fb71b1720b84b22,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=ac9bab43-f23f-4daa-9c8d-a6404350cea3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>highlighted outputs</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</model>
+        <model_id>76819eef1baba1908c5143f3cc4bcb39</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:24</sys_created_on>
+        <sys_id>49f475151bd1b5108c5143f3cc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=49f475151bd1b5108c5143f3cc4bcb28"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=49f475151bd1b5108c5143f3cc4bcb28"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1160,7 +1361,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39</name>
         <next_element/>
-        <order>4</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1178,14 +1379,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:05</sys_created_on>
         <sys_id>c28292271beba1908c5143f3cc4bcbfe</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:34:27</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1260,7 +1461,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_76819eef1baba1908c5143f3cc4bcb39"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN0a8292271beba1908c5143f3cc4bcbfd,9282d2271beba1908c5143f3cc4bcb03,ea0296e31beba1908c5143f3cc4bcbf6,f0a2a2ef1b2fa1908c5143f3cc4bcb0e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN0a8292271beba1908c5143f3cc4bcbfd,9282d2271beba1908c5143f3cc4bcb03,c1f475151bd1b5108c5143f3cc4bcb2c,ea0296e31beba1908c5143f3cc4bcbf6,f0a2a2ef1b2fa1908c5143f3cc4bcb0e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -1304,6 +1505,29 @@
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-26 19:24:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>highlighted outputs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_76819eef1baba1908c5143f3cc4bcb39</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:24</sys_created_on>
+        <sys_id>c1f475151bd1b5108c5143f3cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1358,17 +1582,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c782d2271beba1908c5143f3cc4bcbd1","name":"plan","plan_signature":null}}</plan>
-        <snapshot>2c3b12f71be325908c5143f3cc4bcba2</snapshot>
+        <snapshot>66a5f1551bd1b5108c5143f3cc4bcb45</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c782d2271beba1908c5143f3cc4bcbd1</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:27</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:21:32</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1382,7 +1606,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>parse_excel_attachment</internal_name>
-        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.highlighted_keys}}","label":"action➛Highlighted Keys","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.columns}}","label":"action➛Columns","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD4e825aa34ceba19030dcfc908acdd237","child_label":"Column","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"columns_child0","child_uiUniqueId":"739d6a51-ba1e-4d2c-b87d-e0414fe74eb2","uiUniqueId":"e6f81f54-c9d7-493a-9515-99ba53a4e844"}},{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"Attachment","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.attachment.sys_id}}","label":"action➛Attachment➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.columns.columns_child0}}","label":"action➛Columns➛Column","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.highlighted_keys}}","label":"action➛Highlighted Keys","type":"action","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].data}}","label":"step➛Script step➛data","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"7d5008b9-03d8-424a-8c67-5ed7bb6641dc"}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}","label":"step➛Script step➛dataStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[2f6be309-472c-4b9b-8897-f89b890e8173].highlightedstrings}}","label":"step➛Script step➛highlightedStrings","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>Parse CSV Attachment</name>
         <natlang/>
@@ -1395,15 +1619,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de82d2271beba1908c5143f3cc4bcb44</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:27:01</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1431,10 +1655,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>e282d2271beba1908c5143f3cc4bcb79</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:24:07</sys_updated_on>
-        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:34</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">e682d2271beba1908c5143f3cc4bcb6e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=de82d2271beba1908c5143f3cc4bcb44"/>
@@ -1461,6 +1685,18 @@
         <sys_updated_on>2023-06-26 20:34:30</sys_updated_on>
         <table>var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44</table>
         <value>{{step[2f6be309-472c-4b9b-8897-f89b890e8173].datastrings}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>de82d2271beba1908c5143f3cc4bcb44</id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:34</sys_created_on>
+        <sys_id>6ff4b5151bd1b5108c5143f3cc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44</table>
+        <value>{{step[2f6be309-472c-4b9b-8897-f89b890e8173].highlightedstrings}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>__action_status__</field>
@@ -1504,10 +1740,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>aa82d2271beba1908c5143f3cc4bcb54</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:25</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa82d2271beba1908c5143f3cc4bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1532,9 +1768,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ea82d2271beba1908c5143f3cc4bcb66</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-27 14:40:25</sys_updated_on>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -1543,12 +1779,13 @@
   var columns = [];
   var data = [];
   var dataStrings = [];
+  var highlightedStrings = columns.concat(highlightedKeys);//make highlighted strings = to the keys
 
   var attachment = new GlideRecord('sys_attachment');
   if (attachment.get(attachmentSysId)) {
     var sa = new GlideSysAttachment();
     var attachmentStream = sa.getContentStream(attachmentSysId);
-
+	gs.info('data attachment stream : ' + attachmentStream);
     if (attachmentStream != null) {
       var reader = new GlideTextReader(attachmentStream);
       var ln;
@@ -1557,6 +1794,7 @@
       while((ln = reader.readLine()) != null) {
         csvLines.push(ln);
       }
+      gs.info('data csvlines : ' + csvLines);
 
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
         columns = csvLines.shift().split(',');
@@ -1580,6 +1818,9 @@
             // Check if the key is in the highlighted keys
             if (highlightedKeys.indexOf(column) !== -1) {
               highlightedRowString += column + ': ' + values[index] + '\n';
+              //push to the highlighted array
+              //highlightedStrings.push(values[index]); //push only the value
+              highlightedStrings[highlightedKeys.indexOf(column)] = values[index]; //this should make it be ordered in the same way as the input
             } else {
               regularRowString += column + ': ' + values[index] + '\n';
             }
@@ -1601,23 +1842,14 @@
 
   outputs.data = data;
   outputs.datastrings = dataStrings;
+  outputs.highlightedstrings = highlightedStrings;
+  gs.info('data : ' + data);
+  gs.info('data string : ' + dataStrings);
 
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=aa82d2271beba1908c5143f3cc4bcb54"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>aa82d2271beba1908c5143f3cc4bcb54</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-06-26 19:24:07</sys_created_on>
-        <sys_id>e282d2271beba1908c5143f3cc4bcb66</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:24:07</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>attachmentSysId</field>
         <id>aa82d2271beba1908c5143f3cc4bcb54</id>
@@ -1657,12 +1889,12 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>aa82d2271beba1908c5143f3cc4bcb54</id>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2023-06-26 19:24:07</sys_created_on>
-        <sys_id>a682d2271beba1908c5143f3cc4bcb66</sys_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 13:37:25</sys_created_on>
+        <sys_id>ff3ff0cb1b0d751062e50ed2cd4bcb1c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 19:24:07</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 13:37:25</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -1835,7 +2067,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=aa82d2271beba1908c5143f3cc4bcb54^sys_idNOT IN2682d2271beba1908c5143f3cc4bcb5f,59a2a2ef1b2fa1908c5143f3cc4bcbaf"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=aa82d2271beba1908c5143f3cc4bcb54^sys_idNOT IN2682d2271beba1908c5143f3cc4bcb5f,59a2a2ef1b2fa1908c5143f3cc4bcbaf,93f4b5151bd1b5108c5143f3cc4bcb98"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2002,8 +2234,91 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=highlightedStrings_child0,child_name=highlightedstrings_child0,child_type=string,child_type_label=String,child_uiUniqueId=09126670-509c-4292-842e-c841764bed6d,co_type_name=FD9bf4b51511d1b510968649e70fe3d293,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=efb8ee3f-63cb-434d-952f-6d6a0270162c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>highlightedstrings</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>highlightedStrings</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Script step">aa82d2271beba1908c5143f3cc4bcb54</model>
+        <model_id>aa82d2271beba1908c5143f3cc4bcb54</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_aa82d2271beba1908c5143f3cc4bcb54</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:33</sys_created_on>
+        <sys_id>93f4b5151bd1b5108c5143f3cc4bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=aa82d2271beba1908c5143f3cc4bcb54"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_aa82d2271beba1908c5143f3cc4bcb54^sys_idNOT IN2a82d2271beba1908c5143f3cc4bcb62,55a2a2ef1b2fa1908c5143f3cc4bcbb2"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_aa82d2271beba1908c5143f3cc4bcb54^sys_idNOT IN2a82d2271beba1908c5143f3cc4bcb62,55a2a2ef1b2fa1908c5143f3cc4bcbb2,5ff4b5151bd1b5108c5143f3cc4bcb9a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>data</element>
         <help/>
@@ -2047,6 +2362,29 @@
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-26 20:34:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>highlightedstrings</element>
+        <help/>
+        <hint/>
+        <label>highlightedStrings</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_aa82d2271beba1908c5143f3cc4bcb54</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:33</sys_created_on>
+        <sys_id>5ff4b5151bd1b5108c5143f3cc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -2219,7 +2557,7 @@
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2a82d2271beba1908c5143f3cc4bcb4e"/>
-    <sys_hub_action_output action="delete_multiple" query="model=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN55a2a2ef1b2fa1908c5143f3cc4bcbbb,6a82d2271beba1908c5143f3cc4bcb6a,e682d2271beba1908c5143f3cc4bcb6e,ee82d2271beba1908c5143f3cc4bcb71"/>
+    <sys_hub_action_output action="delete_multiple" query="model=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN55a2a2ef1b2fa1908c5143f3cc4bcbbb,6a82d2271beba1908c5143f3cc4bcb6a,6ff4b5151bd1b5108c5143f3cc4bcba7,e682d2271beba1908c5143f3cc4bcb6e,ee82d2271beba1908c5143f3cc4bcb71"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2398,6 +2736,93 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>child_label=highlighted outputs_child0,child_name=highlighted_outputs_child0,child_type=string,child_type_label=String,child_uiUniqueId=324916b7-aa94-41fb-a24d-c9a77e37b862,co_type_name=FD93f4b51540d1b510e510247b121f63a2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=ac9bab43-f23f-4daa-9c8d-a6404350cea3</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>highlighted outputs</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Parse CSV Attachment">de82d2271beba1908c5143f3cc4bcb44</model>
+        <model_id>de82d2271beba1908c5143f3cc4bcb44</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:33</sys_created_on>
+        <sys_id>6ff4b5151bd1b5108c5143f3cc4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6ff4b5151bd1b5108c5143f3cc4bcba7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6ff4b5151bd1b5108c5143f3cc4bcba7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=620396f9-7675-4def-be92-bb8453a8cf98</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -2528,7 +2953,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44</name>
         <next_element/>
-        <order>4</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2546,14 +2971,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ee82d2271beba1908c5143f3cc4bcb71</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-06-26 20:34:29</sys_updated_on>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2628,7 +3053,7 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_de82d2271beba1908c5143f3cc4bcb44"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN2682d2271beba1908c5143f3cc4bcb71,2e82d2271beba1908c5143f3cc4bcb6d,95a2a2ef1b2fa1908c5143f3cc4bcbbe,a282d2271beba1908c5143f3cc4bcb76"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN2682d2271beba1908c5143f3cc4bcb71,2e82d2271beba1908c5143f3cc4bcb6d,95a2a2ef1b2fa1908c5143f3cc4bcbbe,a282d2271beba1908c5143f3cc4bcb76,aff4b5151bd1b5108c5143f3cc4bcbaa"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -2721,10 +3146,33 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>highlighted outputs</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:34</sys_created_on>
+        <sys_id>aff4b5151bd1b5108c5143f3cc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-14 17:18:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_de82d2271beba1908c5143f3cc4bcb44"/>
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
         <latest_snapshot>de82d2271beba1908c5143f3cc4bcb44</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch9-05-10-2023_05-25-2023_0925.zip</compiler_build>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2b-07-19-2023_08-01-2023_1829.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_cyber_ark_stuff</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>254fb1471b41b51062e50ed2cd4bcb90</master_snapshot>
+        <name>create cyber ark stuff</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:06:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14ccbd431b41b51062e50ed2cd4bcbe6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>create cyber ark stuff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name>sys_hub_flow_14ccbd431b41b51062e50ed2cd4bcbe6</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:11</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_variable_value action="DELETE" query="document_key=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN1cccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>14ccbd431b41b51062e50ed2cd4bcbe6</id>
+        <name>create cyber ark stuff</name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:06:09</sys_created_on>
+        <sys_id>1cccbd431b41b51062e50ed2cd4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:06:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=1cccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_flow_input action="DELETE" query="model=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN7add75c31b41b51062e50ed2cd4bcbff"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cb084b0f-ff1a-42c1-8d4b-9e9bd73cef7d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>input string</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="create cyber ark stuff">14ccbd431b41b51062e50ed2cd4bcbe6</model>
+        <model_id>14ccbd431b41b51062e50ed2cd4bcbe6</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:10:58</sys_created_on>
+        <sys_id>7add75c31b41b51062e50ed2cd4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:10:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_action_instance action="DELETE" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN4fddb5c31b41b51062e50ed2cd4bcb09"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="create cyber ark stuff">14ccbd431b41b51062e50ed2cd4bcbe6</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:10:59</sys_created_on>
+        <sys_id>4fddb5c31b41b51062e50ed2cd4bcb09</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:11</sys_updated_on>
+        <ui_id>657bb050-5bc4-4464-a7e5-4fad127d8719</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=4fddb5c31b41b51062e50ed2cd4bcb09"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4fddb5c31b41b51062e50ed2cd4bcb09</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:10:59</sys_created_on>
+        <sys_id>0fddb5c31b41b51062e50ed2cd4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:10:59</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4fddb5c31b41b51062e50ed2cd4bcb09</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:10:59</sys_created_on>
+        <sys_id>47ddb5c31b41b51062e50ed2cd4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:10:59</sys_updated_on>
+        <value>short_description=test</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=4fddb5c31b41b51062e50ed2cd4bcb09"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=4fddb5c31b41b51062e50ed2cd4bcb09"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4fddb5c31b41b51062e50ed2cd4bcb09"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_hub_flow_variable action="DELETE" query="model=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN4bddb5c31b41b51062e50ed2cd4bcb02"/>
+    <sys_documentation action="DELETE">
+        <element>input_string</element>
+        <help/>
+        <hint/>
+        <label>input string</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:10:59</sys_created_on>
+        <sys_id>4bddb5c31b41b51062e50ed2cd4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:10:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=14ccbd431b41b51062e50ed2cd4bcbe6"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT INf14ff1471b41b51062e50ed2cd4bcb3c"/>
+    <sys_flow_subflow_plan action="DELETE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@19d0441</plan>
+        <plan_id display_value="create cyber ark stuff">14ccbd431b41b51062e50ed2cd4bcbe6</plan_id>
+        <snapshot>254fb1471b41b51062e50ed2cd4bcb90</snapshot>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f14ff1471b41b51062e50ed2cd4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:11</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_cyber_ark_stuff</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>create cyber ark stuff</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="create cyber ark stuff">14ccbd431b41b51062e50ed2cd4bcbe6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>254fb1471b41b51062e50ed2cd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:09</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_variable_value action="DELETE" query="document_key=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT INad4fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>254fb1471b41b51062e50ed2cd4bcb90</id>
+        <name>create cyber ark stuff</name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:10</sys_created_on>
+        <sys_id>ad4fb1471b41b51062e50ed2cd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:10</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=ad4fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_flow_input action="DELETE" query="model=254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT INe14fb1471b41b51062e50ed2cd4bcb92"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cb084b0f-ff1a-42c1-8d4b-9e9bd73cef7d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>input string</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="create cyber ark stuff">254fb1471b41b51062e50ed2cd4bcb90</model>
+        <model_id>254fb1471b41b51062e50ed2cd4bcb90</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:10</sys_created_on>
+        <sys_id>e14fb1471b41b51062e50ed2cd4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_action_instance action="DELETE" query="flow=254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT IN3d4ff1471b41b51062e50ed2cd4bcb31"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="create cyber ark stuff">254fb1471b41b51062e50ed2cd4bcb90</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:10</sys_created_on>
+        <sys_id>3d4ff1471b41b51062e50ed2cd4bcb31</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:10</sys_updated_on>
+        <ui_id>657bb050-5bc4-4464-a7e5-4fad127d8719</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=3d4ff1471b41b51062e50ed2cd4bcb31"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d4ff1471b41b51062e50ed2cd4bcb31</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:10</sys_created_on>
+        <sys_id>3d4ff1471b41b51062e50ed2cd4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:10</sys_updated_on>
+        <value>short_description=test</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3d4ff1471b41b51062e50ed2cd4bcb31</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:10</sys_created_on>
+        <sys_id>f14ff1471b41b51062e50ed2cd4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:10</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=3d4ff1471b41b51062e50ed2cd4bcb31"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=3d4ff1471b41b51062e50ed2cd4bcb31"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3d4ff1471b41b51062e50ed2cd4bcb31"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_flow_variable action="DELETE" query="model=254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT IN754ff1471b41b51062e50ed2cd4bcb1a"/>
+    <sys_documentation action="DELETE">
+        <element>input_string</element>
+        <help/>
+        <hint/>
+        <label>input string</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:10</sys_created_on>
+        <sys_id>754ff1471b41b51062e50ed2cd4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_254fb1471b41b51062e50ed2cd4bcb90"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>14ccbd431b41b51062e50ed2cd4bcbe6</sys_id>
+        <latest_snapshot>254fb1471b41b51062e50ed2cd4bcb90</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_hub_flow_14ccbd431b41b51062e50ed2cd4bcbe6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;create_cyber_ark_stuff&lt;/internal_name&gt;&lt;label_cache&gt;[]&lt;/label_cache&gt;&lt;master_snapshot&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/master_snapshot&gt;&lt;name&gt;create cyber ark stuff&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:06:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;create cyber ark stuff&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_14ccbd431b41b51062e50ed2cd4bcbe6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:11&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN1cccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/id&gt;&lt;name&gt;create cyber ark stuff&lt;/name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:06:09&lt;/sys_created_on&gt;&lt;sys_id&gt;1cccbd431b41b51062e50ed2cd4bcbe6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:06:09&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1cccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN7add75c31b41b51062e50ed2cd4bcbff"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cb084b0f-ff1a-42c1-8d4b-9e9bd73cef7d&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;input_string&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;input string&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="create cyber ark stuff"&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/model&gt;&lt;model_id&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:10:58&lt;/sys_created_on&gt;&lt;sys_id&gt;7add75c31b41b51062e50ed2cd4bcbff&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:10:58&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN4fddb5c31b41b51062e50ed2cd4bcb09"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="create cyber ark stuff"&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:10:59&lt;/sys_created_on&gt;&lt;sys_id&gt;4fddb5c31b41b51062e50ed2cd4bcb09&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:11&lt;/sys_updated_on&gt;&lt;ui_id&gt;657bb050-5bc4-4464-a7e5-4fad127d8719&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4fddb5c31b41b51062e50ed2cd4bcb09"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4fddb5c31b41b51062e50ed2cd4bcb09&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:10:59&lt;/sys_created_on&gt;&lt;sys_id&gt;0fddb5c31b41b51062e50ed2cd4bcb0c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:10:59&lt;/sys_updated_on&gt;&lt;value&gt;sc_request&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;4fddb5c31b41b51062e50ed2cd4bcb09&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:10:59&lt;/sys_created_on&gt;&lt;sys_id&gt;47ddb5c31b41b51062e50ed2cd4bcb0c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:10:59&lt;/sys_updated_on&gt;&lt;value&gt;short_description=test&lt;/value&gt;&lt;variable display_value="Fields"&gt;6de09916c31332002841b63b12d3ae1b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=4fddb5c31b41b51062e50ed2cd4bcb09"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=4fddb5c31b41b51062e50ed2cd4bcb09"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4fddb5c31b41b51062e50ed2cd4bcb09"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT IN4bddb5c31b41b51062e50ed2cd4bcb02"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;input_string&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;input string&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:10:59&lt;/sys_created_on&gt;&lt;sys_id&gt;4bddb5c31b41b51062e50ed2cd4bcb02&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:10:59&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=14ccbd431b41b51062e50ed2cd4bcbe6"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=14ccbd431b41b51062e50ed2cd4bcbe6^sys_idNOT INf14ff1471b41b51062e50ed2cd4bcb3c"/&gt;&lt;sys_flow_subflow_plan action="INSERT_OR_UPDATE"&gt;&lt;plan&gt;com.snc.process_flow.engine.ProcessPlan@19d0441&lt;/plan&gt;&lt;plan_id display_value="create cyber ark stuff"&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/plan_id&gt;&lt;snapshot&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/snapshot&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f14ff1471b41b51062e50ed2cd4bcb3c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:11&lt;/sys_updated_on&gt;&lt;/sys_flow_subflow_plan&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;create_cyber_ark_stuff&lt;/internal_name&gt;&lt;label_cache&gt;[]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;create cyber ark stuff&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="create cyber ark stuff"&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;system&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:09&lt;/sys_updated_on&gt;&lt;type&gt;subflow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT INad4fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/id&gt;&lt;name&gt;create cyber ark stuff&lt;/name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;ad4fb1471b41b51062e50ed2cd4bcb90&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:10&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ad4fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT INe14fb1471b41b51062e50ed2cd4bcb92"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cb084b0f-ff1a-42c1-8d4b-9e9bd73cef7d&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;input_string&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;input string&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="create cyber ark stuff"&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/model&gt;&lt;model_id&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;e14fb1471b41b51062e50ed2cd4bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT IN3d4ff1471b41b51062e50ed2cd4bcb31"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Record"&gt;2de05916c31332002841b63b12d3aee1&lt;/action_type&gt;&lt;action_type_parent display_value="Create Record"&gt;02f0b88cc3c632002841b63b12d3aeff&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="create cyber ark stuff"&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;3d4ff1471b41b51062e50ed2cd4bcb31&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:10&lt;/sys_updated_on&gt;&lt;ui_id&gt;657bb050-5bc4-4464-a7e5-4fad127d8719&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=3d4ff1471b41b51062e50ed2cd4bcb31"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;3d4ff1471b41b51062e50ed2cd4bcb31&lt;/document_key&gt;&lt;order&gt;1&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;3d4ff1471b41b51062e50ed2cd4bcb33&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:10&lt;/sys_updated_on&gt;&lt;value&gt;short_description=test&lt;/value&gt;&lt;variable display_value="Fields"&gt;6de09916c31332002841b63b12d3ae1b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;3d4ff1471b41b51062e50ed2cd4bcb31&lt;/document_key&gt;&lt;order&gt;0&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f14ff1471b41b51062e50ed2cd4bcb34&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:10&lt;/sys_updated_on&gt;&lt;value&gt;sc_request&lt;/value&gt;&lt;variable display_value="Table"&gt;61e05916c31332002841b63b12d3aee4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=3d4ff1471b41b51062e50ed2cd4bcb31"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=3d4ff1471b41b51062e50ed2cd4bcb31"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=3d4ff1471b41b51062e50ed2cd4bcb31"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90^sys_idNOT IN754ff1471b41b51062e50ed2cd4bcb1a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;input_string&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;input string&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;John.Schwab&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-09-07 18:17:10&lt;/sys_created_on&gt;&lt;sys_id&gt;754ff1471b41b51062e50ed2cd4bcb1a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CyberArk EPM Email Ingest"&gt;e80fff5d1b9c99908c5143f3cc4bcb2a&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;John.Schwab&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-09-07 18:17:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_254fb1471b41b51062e50ed2cd4bcb90"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;14ccbd431b41b51062e50ed2cd4bcbe6&lt;/sys_id&gt;&lt;latest_snapshot&gt;254fb1471b41b51062e50ed2cd4bcb90&lt;/latest_snapshot&gt;&lt;compiler_build/&gt;&lt;/sys_hub_flow&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1576578247</payload_hash>
+        <record_name>create cyber ark stuff</record_name>
+        <reverted_from/>
+        <source>129308d41b4dfd1062e50ed2cd4bcb07</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:17:11</sys_created_on>
+        <sys_id>4e4ff1471b41b51062e50ed2cd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a70dcc6a30000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:17:11</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>c24ff147a441b5105671020bd81aa355</update_guid>
+        <update_guid_history>c24ff147a441b5105671020bd81aa355:-1576578247,dfddb5c32041b510d088a3e8685b2828:1621735630,94ccf1836c41b51017b77e9d30ab2b40:2113229470</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-07 18:34:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0da6d265a7bc4146b2f806b7f4ac87e4</sys_id>
+        <sys_metadata>14ccbd431b41b51062e50ed2cd4bcbe6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>create cyber ark stuff</sys_name>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_scope_delete display_value="">1666682108514e2494d046720187ce84</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_14ccbd431b41b51062e50ed2cd4bcbe6</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_14ccbd431b41b51062e50ed2cd4bcbe6">4e4ff1471b41b51062e50ed2cd4bcb55</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-07 18:34:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

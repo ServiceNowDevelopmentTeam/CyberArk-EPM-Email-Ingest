@@ -38,7 +38,7 @@
         <label>User Sys ID</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Email Ingest - CyberArk EPM">f53275431b7f119062e50ed2cd4bcb2f</model>
+        <model display_value="">f53275431b7f119062e50ed2cd4bcb2f</model>
         <model_id>f53275431b7f119062e50ed2cd4bcb2f</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_f53275431b7f119062e50ed2cd4bcb2f</name>

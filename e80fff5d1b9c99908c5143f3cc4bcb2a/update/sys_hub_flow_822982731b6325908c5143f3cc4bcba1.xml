@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>822982731b6325908c5143f3cc4bcba1</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>PROF - Email Ingest - CyberArk EPM - S</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_flow_822982731b6325908c5143f3cc4bcba1</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-06 21:05:13</sys_updated_on>
+        <sys_updated_on>2023-08-23 16:50:57</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=822982731b6325908c5143f3cc4bcba1"/>
@@ -92,10 +92,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-27 13:22:50</sys_created_on>
         <sys_id>04790af31b6325908c5143f3cc4bcb08</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-06 21:05:12</sys_updated_on>
+        <sys_updated_on>2023-08-23 16:54:18</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -149,7 +149,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -208,14 +208,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-27 13:22:49</sys_created_on>
         <sys_id>7f69c6f31b6325908c5143f3cc4bcbb2</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-06 21:05:12</sys_updated_on>
+        <sys_updated_on>2023-08-23 16:54:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -232,7 +232,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -291,14 +291,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-27 13:22:49</sys_created_on>
         <sys_id>f769c6f31b6325908c5143f3cc4bcbb7</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-06 21:05:12</sys_updated_on>
+        <sys_updated_on>2023-08-23 16:54:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -328,10 +328,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-07-06 20:14:33</sys_created_on>
         <sys_id>0bfdf1761b3765d062e50ed2cd4bcb63</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2023-07-06 21:05:12</sys_updated_on>
+        <sys_updated_on>2023-08-23 16:54:18</sys_updated_on>
         <ui_id>f6fc3a15-d1b4-4cda-a04f-78f6ae069c3f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0bfdf1761b3765d062e50ed2cd4bcb63"/>
@@ -3760,11 +3760,11 @@ Escalate to AG_Security if a policy is required.
         <sys_created_on>2023-06-27 14:01:41</sys_created_on>
         <sys_id>1952daf31ba325908c5143f3cc4bcbc3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1552daf31ba325908c5143f3cc4bcb9d_current_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-27 14:01:41</sys_updated_on>
         <url/>
@@ -3783,11 +3783,11 @@ Escalate to AG_Security if a policy is required.
         <sys_created_on>2023-06-27 14:01:42</sys_created_on>
         <sys_id>9d52daf31ba325908c5143f3cc4bcbfd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1552daf31ba325908c5143f3cc4bcb9d_table_name_en</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2023-06-27 14:01:42</sys_updated_on>
         <url/>

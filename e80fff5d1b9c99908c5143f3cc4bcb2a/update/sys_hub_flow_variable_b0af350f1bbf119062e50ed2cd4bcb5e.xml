@@ -38,7 +38,7 @@
         <label>Description</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="Email Ingest - CyberArk EPM">f0af350f1bbf119062e50ed2cd4bcb43</model>
+        <model display_value="">f0af350f1bbf119062e50ed2cd4bcb43</model>
         <model_id>f0af350f1bbf119062e50ed2cd4bcb43</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_f0af350f1bbf119062e50ed2cd4bcb43</name>

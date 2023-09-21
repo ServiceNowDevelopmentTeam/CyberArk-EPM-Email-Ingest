@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf02d94d2a47cb510a4f6966e06ad4657</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FDf02d94d2a47cb510a4f6966e06ad4657":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf02d94d2a47cb510a4f6966e06ad4657.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Highlighted Keys\",\"mandatory\":\"false\",\"child_name\":\"highlighted_keys_child0\",\"uiUniqueId\":\"30fc9e03-3a09-45d7-b4df-f2c886c51f0a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDf02d94d2a47cb510a4f6966e06ad4657\",\"child_label\":\"Highlighted Keys_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b14f32e3-d768-41f4-9d80-cecdea9fb847\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-08-23 16:57:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b42d94d21b7cb51062e50ed2cd4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf02d94d2a47cb510a4f6966e06ad4657</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name>sys_complex_object_b42d94d21b7cb51062e50ed2cd4bcb57</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2023-08-23 16:57:15</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
