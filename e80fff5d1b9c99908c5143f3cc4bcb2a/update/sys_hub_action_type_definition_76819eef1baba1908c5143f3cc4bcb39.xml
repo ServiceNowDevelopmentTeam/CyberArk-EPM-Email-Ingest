@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_name>Parse CSV Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_76819eef1baba1908c5143f3cc4bcb39</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:21:30</sys_updated_on>
+        <sys_updated_on>2023-09-26 17:00:29</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -148,10 +148,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>1a021aa31beba1908c5143f3cc4bcbea</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
+        <sys_updated_on>2023-09-26 17:00:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a021aa31beba1908c5143f3cc4bcbea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -176,9 +176,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>5e0296e31beba1908c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
+        <sys_updated_on>2023-09-26 17:00:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -193,7 +193,7 @@
   if (attachment.get(attachmentSysId)) {
     var sa = new GlideSysAttachment();
     var attachmentStream = sa.getContentStream(attachmentSysId);
-	gs.info('data attachment stream : ' + attachmentStream);
+	//gs.info('data attachment stream : ' + attachmentStream);
     if (attachmentStream != null) {
       var reader = new GlideTextReader(attachmentStream);
       var ln;
@@ -202,7 +202,7 @@
       while((ln = reader.readLine()) != null) {
         csvLines.push(ln);
       }
-      gs.info('data csvlines : ' + csvLines);
+      //gs.info('data csvlines : ' + csvLines);
 
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
         columns = csvLines.shift().split(',');
@@ -211,9 +211,52 @@
           columns[0] = columns[0].slice(1);
         }
       }
-
+	  //gs.info('data csv - Collumns : ' + columns);
+      
       csvLines.forEach(function(line) {
-        var values = line.split(',');
+        //gs.info('data csv - Line Values : ' + line);
+        
+        //normally splitting by comma is fine, HOWEVER in exactly the case of having submitted a comma in the value field
+        //this will cause issues:
+        //when this occurs the value in questions will be ,"value,value", instead of ,value,
+        //so first we need to check for that
+		
+        //loop this as many times as necessary
+        var values = [];
+        var notDone = true;
+        var currIndex = 0;
+        while(notDone){
+  	        //find the first element of quotations, at that point split the array
+			var indexOf = line.indexOf(',"');
+          	var secondIndexOf = line.indexOf('"', indexOf+2);
+          	if(line[0] == '"'){//if it starts with a quote
+            	values.push(line.substring(1, secondIndexOf-1));
+              	line = line.substring(secondIndexOf+1);
+            }
+          	else if(indexOf != -1){
+              	//var secondIndexOf = line.indexOf('"', indexOf+2);
+          		var tempArr = (line.substring(currIndex, indexOf-1)).split(',');//find substring up to that pointand then split it
+              	for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
+                	values.push(tempArr[arr_i]);  
+                }
+              
+              	values.push(line.substring(indexOf+2, secondIndexOf)), //push the value of the quotations
+                //set lines to lines past that point
+                line = line.substring(secondIndexOf+1);
+            }
+          	else{
+              //no more quotations exist
+              var tempArr = line.split(',');
+              for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
+                	values.push(tempArr[arr_i]);  
+              }
+              notDone = false;
+            }
+          
+        }
+        //gs.info('data csv - values : ' + values);
+        
+        //var values = line.split(',');
 
         var rowData = {};
         var highlightedRowString = '';
@@ -1401,7 +1444,143 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c28292271beba1908c5143f3cc4bcbfe"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c28292271beba1908c5143f3cc4bcbfe"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=76819eef1baba1908c5143f3cc4bcb39"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN02d0af051b6d35508c5143f3cc4bcba2,06d0af051b6d35508c5143f3cc4bcba1,42d0af051b6d35508c5143f3cc4bcba1,4ed0af051b6d35508c5143f3cc4bcba1,8ad0af051b6d35508c5143f3cc4bcba1,8ed0af051b6d35508c5143f3cc4bcba0,c6d0af051b6d35508c5143f3cc4bcba0,c6d0af051b6d35508c5143f3cc4bcba1"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8663566b-0ee6-45fe-bed4-4ff730c9ba15.outstring}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>02d0af051b6d35508c5143f3cc4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>268c304d-5d9a-4115-88e1-73ecb5ea0d7e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>2b1219c0-3b83-4e93-9590-74170e78cf35</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>06d0af051b6d35508c5143f3cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\\"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>0b91b64d-c218-4546-a6a3-4fe616954160</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Inbound Email_1.body_text}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>42d0af051b6d35508c5143f3cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2b1219c0-3b83-4e93-9590-74170e78cf35</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>268c304d-5d9a-4115-88e1-73ecb5ea0d7e</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>4ed0af051b6d35508c5143f3cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>30e6167f-3a2f-4c1b-94b1-a0b5f37cc922</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>8ad0af051b6d35508c5143f3cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d1b21ac1-68bc-437f-9b45-5647a71b3b5c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b020db11-f0c3-4c9b-8378-89b05ce86255.outstring}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>8ed0af051b6d35508c5143f3cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1808e52e-6c0a-4a37-8580-8fd37c27ef62</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>1808e52e-6c0a-4a37-8580-8fd37c27ef62</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>c6d0af051b6d35508c5143f3cc4bcba0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>0c57657b-26d3-4b8b-a568-76497ff66825</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>76819eef1baba1908c5143f3cc4bcb39</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>d1b21ac1-68bc-437f-9b45-5647a71b3b5c</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:46:59</sys_created_on>
+        <sys_id>c6d0af051b6d35508c5143f3cc4bcba1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:46:59</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\\"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>3134d3e4-4285-49c6-8ad5-26a997230bca</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT INa60296e31beba1908c5143f3cc4bcbf9"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</action_type_id>
@@ -1582,17 +1761,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c782d2271beba1908c5143f3cc4bcbd1","name":"plan","plan_signature":null}}</plan>
-        <snapshot>66a5f1551bd1b5108c5143f3cc4bcb45</snapshot>
+        <snapshot>63e3af091b6d35508c5143f3cc4bcb6c</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c782d2271beba1908c5143f3cc4bcbd1</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:21:32</sys_updated_on>
+        <sys_updated_on>2023-09-26 17:00:31</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1740,10 +1919,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>aa82d2271beba1908c5143f3cc4bcb54</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
+        <sys_updated_on>2023-09-26 17:00:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa82d2271beba1908c5143f3cc4bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1768,9 +1947,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ea82d2271beba1908c5143f3cc4bcb66</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:33</sys_updated_on>
+        <sys_updated_on>2023-09-26 17:00:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -1785,7 +1964,7 @@
   if (attachment.get(attachmentSysId)) {
     var sa = new GlideSysAttachment();
     var attachmentStream = sa.getContentStream(attachmentSysId);
-	gs.info('data attachment stream : ' + attachmentStream);
+	//gs.info('data attachment stream : ' + attachmentStream);
     if (attachmentStream != null) {
       var reader = new GlideTextReader(attachmentStream);
       var ln;
@@ -1794,7 +1973,7 @@
       while((ln = reader.readLine()) != null) {
         csvLines.push(ln);
       }
-      gs.info('data csvlines : ' + csvLines);
+      //gs.info('data csvlines : ' + csvLines);
 
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
         columns = csvLines.shift().split(',');
@@ -1803,9 +1982,52 @@
           columns[0] = columns[0].slice(1);
         }
       }
-
+	  //gs.info('data csv - Collumns : ' + columns);
+      
       csvLines.forEach(function(line) {
-        var values = line.split(',');
+        //gs.info('data csv - Line Values : ' + line);
+        
+        //normally splitting by comma is fine, HOWEVER in exactly the case of having submitted a comma in the value field
+        //this will cause issues:
+        //when this occurs the value in questions will be ,"value,value", instead of ,value,
+        //so first we need to check for that
+		
+        //loop this as many times as necessary
+        var values = [];
+        var notDone = true;
+        var currIndex = 0;
+        while(notDone){
+  	        //find the first element of quotations, at that point split the array
+			var indexOf = line.indexOf(',"');
+          	var secondIndexOf = line.indexOf('"', indexOf+2);
+          	if(line[0] == '"'){//if it starts with a quote
+            	values.push(line.substring(1, secondIndexOf-1));
+              	line = line.substring(secondIndexOf+1);
+            }
+          	else if(indexOf != -1){
+              	//var secondIndexOf = line.indexOf('"', indexOf+2);
+          		var tempArr = (line.substring(currIndex, indexOf-1)).split(',');//find substring up to that pointand then split it
+              	for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
+                	values.push(tempArr[arr_i]);  
+                }
+              
+              	values.push(line.substring(indexOf+2, secondIndexOf)), //push the value of the quotations
+                //set lines to lines past that point
+                line = line.substring(secondIndexOf+1);
+            }
+          	else{
+              //no more quotations exist
+              var tempArr = line.split(',');
+              for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
+                	values.push(tempArr[arr_i]);  
+              }
+              notDone = false;
+            }
+          
+        }
+        //gs.info('data csv - values : ' + values);
+        
+        //var values = line.split(',');
 
         var rowData = {};
         var highlightedRowString = '';
@@ -2993,7 +3215,143 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ee82d2271beba1908c5143f3cc4bcb71"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ee82d2271beba1908c5143f3cc4bcb71"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=de82d2271beba1908c5143f3cc4bcb44"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN26d0ef051b6d35508c5143f3cc4bcb49,32d0ef051b6d35508c5143f3cc4bcb4a,62d0ef051b6d35508c5143f3cc4bcb49,7ed0ef051b6d35508c5143f3cc4bcb49,aed0ef051b6d35508c5143f3cc4bcb48,bad0ef051b6d35508c5143f3cc4bcb49,f2d0ef051b6d35508c5143f3cc4bcb4a,f6d0ef051b6d35508c5143f3cc4bcb49"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Inbound Email_1.body_text}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>26d0ef051b6d35508c5143f3cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2b1219c0-3b83-4e93-9590-74170e78cf35</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>268c304d-5d9a-4115-88e1-73ecb5ea0d7e</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>32d0ef051b6d35508c5143f3cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>30e6167f-3a2f-4c1b-94b1-a0b5f37cc922</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b020db11-f0c3-4c9b-8378-89b05ce86255.outstring}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>62d0ef051b6d35508c5143f3cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1808e52e-6c0a-4a37-8580-8fd37c27ef62</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>d1b21ac1-68bc-437f-9b45-5647a71b3b5c</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>7ed0ef051b6d35508c5143f3cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\\"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>3134d3e4-4285-49c6-8ad5-26a997230bca</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>1808e52e-6c0a-4a37-8580-8fd37c27ef62</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>aed0ef051b6d35508c5143f3cc4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[{"id":"23fccf3dc7233300dbf8772bf4c260ac","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="trim">dd9e9d44c7233300dbf8772bf4c2607a</transform_definition_id>
+        <ui_id>0c57657b-26d3-4b8b-a568-76497ff66825</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.description}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>bad0ef051b6d35508c5143f3cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d1b21ac1-68bc-437f-9b45-5647a71b3b5c</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{8663566b-0ee6-45fe-bed4-4ff730c9ba15.outstring}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>f2d0ef051b6d35508c5143f3cc4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>268c304d-5d9a-4115-88e1-73ecb5ea0d7e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>de82d2271beba1908c5143f3cc4bcb44</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>2b1219c0-3b83-4e93-9590-74170e78cf35</source_ui_id>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-26 16:47:02</sys_created_on>
+        <sys_id>f6d0ef051b6d35508c5143f3cc4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-09-26 16:47:02</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":"\\\"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>0b91b64d-c218-4546-a6a3-4fe616954160</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT INe282d2271beba1908c5143f3cc4bcb7b"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="Parse CSV Attachment">de82d2271beba1908c5143f3cc4bcb44</action_type_id>
