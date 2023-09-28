@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>75</sys_mod_count>
         <sys_name>Parse CSV Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_76819eef1baba1908c5143f3cc4bcb39</sys_update_name>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-26 17:00:29</sys_updated_on>
+        <sys_updated_on>2023-09-28 15:50:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -148,10 +148,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>1a021aa31beba1908c5143f3cc4bcbea</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-26 17:00:25</sys_updated_on>
+        <sys_updated_on>2023-09-28 15:49:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a021aa31beba1908c5143f3cc4bcbea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -176,9 +176,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>5e0296e31beba1908c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-26 17:00:25</sys_updated_on>
+        <sys_updated_on>2023-09-28 15:49:46</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -294,8 +294,8 @@
   outputs.data = data;
   outputs.datastrings = dataStrings;
   outputs.highlightedstrings = highlightedStrings;
-  gs.info('data : ' + data);
-  gs.info('data string : ' + dataStrings);
+  //gs.info('data : ' + data);
+ // gs.info('data string : ' + dataStrings);
 
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
@@ -1761,17 +1761,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c782d2271beba1908c5143f3cc4bcbd1","name":"plan","plan_signature":null}}</plan>
-        <snapshot>63e3af091b6d35508c5143f3cc4bcb6c</snapshot>
+        <snapshot>83f6a5391be5f5508c5143f3cc4bcb62</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c782d2271beba1908c5143f3cc4bcbd1</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-26 17:00:31</sys_updated_on>
+        <sys_updated_on>2023-09-28 15:50:04</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1919,10 +1919,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>aa82d2271beba1908c5143f3cc4bcb54</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-26 17:00:28</sys_updated_on>
+        <sys_updated_on>2023-09-28 15:50:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa82d2271beba1908c5143f3cc4bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1947,9 +1947,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ea82d2271beba1908c5143f3cc4bcb66</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-26 17:00:28</sys_updated_on>
+        <sys_updated_on>2023-09-28 15:50:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -2065,8 +2065,8 @@
   outputs.data = data;
   outputs.datastrings = dataStrings;
   outputs.highlightedstrings = highlightedStrings;
-  gs.info('data : ' + data);
-  gs.info('data string : ' + dataStrings);
+  //gs.info('data : ' + data);
+ // gs.info('data string : ' + dataStrings);
 
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
