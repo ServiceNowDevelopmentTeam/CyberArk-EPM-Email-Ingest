@@ -13,8 +13,10 @@
         <comments/>
         <default_grant_type>authorization_code</default_grant_type>
         <id_token_lifespan>86400</id_token_lifespan>
+        <login_url/>
         <logo_url/>
         <message_signature_lifespan>60</message_signature_lifespan>
+        <mobile_client>false</mobile_client>
         <name>Microsoft Teams Graph Authorization Code</name>
         <oauth_api_script display_value="OAuthUtil">3e3a3a11c333210016194ffe5bba8f70</oauth_api_script>
         <protocol_name/>

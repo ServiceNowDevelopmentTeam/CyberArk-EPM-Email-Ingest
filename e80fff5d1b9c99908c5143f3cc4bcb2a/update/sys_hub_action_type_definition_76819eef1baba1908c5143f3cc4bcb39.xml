@@ -20,22 +20,22 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:19:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
-        <sys_mod_count>75</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Parse CSV Attachment</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_76819eef1baba1908c5143f3cc4bcb39</sys_update_name>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:50:02</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:18</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -49,10 +49,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:06</sys_created_on>
         <sys_id>9282d2271beba1908c5143f3cc4bcb13</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-20 20:24:51</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">828292271beba1908c5143f3cc4bcbfa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -148,10 +148,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>1a021aa31beba1908c5143f3cc4bcbea</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:49:46</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1a021aa31beba1908c5143f3cc4bcbea"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -176,9 +176,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:21:55</sys_created_on>
         <sys_id>5e0296e31beba1908c5143f3cc4bcbef</sys_id>
-        <sys_mod_count>34</sys_mod_count>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:49:46</sys_updated_on>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -193,110 +193,70 @@
   if (attachment.get(attachmentSysId)) {
     var sa = new GlideSysAttachment();
     var attachmentStream = sa.getContentStream(attachmentSysId);
-	//gs.info('data attachment stream : ' + attachmentStream);
     if (attachmentStream != null) {
       var reader = new GlideTextReader(attachmentStream);
       var ln;
       var csvLines = [];
 
-      while((ln = reader.readLine()) != null) {
-        csvLines.push(ln);
+      while ((ln = reader.readLine()) != null) {
+          csvLines.push(ln);
       }
-      //gs.info('data csvlines : ' + csvLines);
 
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
-        columns = csvLines.shift().split(',');
-
-        if (columns[0].charCodeAt(0) === 0xFEFF) {
-          columns[0] = columns[0].slice(1);
-        }
-      }
-	  //gs.info('data csv - Collumns : ' + columns);
-      
-      csvLines.forEach(function(line) {
-        //gs.info('data csv - Line Values : ' + line);
-        
-        //normally splitting by comma is fine, HOWEVER in exactly the case of having submitted a comma in the value field
-        //this will cause issues:
-        //when this occurs the value in questions will be ,"value,value", instead of ,value,
-        //so first we need to check for that
-		
-        //loop this as many times as necessary
-        var values = [];
-        var notDone = true;
-        var currIndex = 0;
-        while(notDone){
-  	        //find the first element of quotations, at that point split the array
-			var indexOf = line.indexOf(',"');
-          	var secondIndexOf = line.indexOf('"', indexOf+2);
-          	if(line[0] == '"'){//if it starts with a quote
-            	values.push(line.substring(1, secondIndexOf-1));
-              	line = line.substring(secondIndexOf+1);
-            }
-          	else if(indexOf != -1){
-              	//var secondIndexOf = line.indexOf('"', indexOf+2);
-          		var tempArr = (line.substring(currIndex, indexOf-1)).split(',');//find substring up to that pointand then split it
-              	for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
-                	values.push(tempArr[arr_i]);  
-                }
-              
-              	values.push(line.substring(indexOf+2, secondIndexOf)), //push the value of the quotations
-                //set lines to lines past that point
-                line = line.substring(secondIndexOf+1);
-            }
-          	else{
-              //no more quotations exist
-              var tempArr = line.split(',');
-              for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
-                	values.push(tempArr[arr_i]);  
-              }
-              notDone = false;
-            }
-          
-        }
-        //gs.info('data csv - values : ' + values);
-        
-        //var values = line.split(',');
-
-        var rowData = {};
-        var highlightedRowString = '';
-        var regularRowString = '';
-
-        columns.forEach(function(column, index) {
-          if (values[index] &amp;&amp; values[index].trim() !== '') {
-            rowData[column] = values[index];
-            
-            // Check if the key is in the highlighted keys
-            if (highlightedKeys.indexOf(column) !== -1) {
-              highlightedRowString += column + ': ' + values[index] + '\n';
-              //push to the highlighted array
-              //highlightedStrings.push(values[index]); //push only the value
-              highlightedStrings[highlightedKeys.indexOf(column)] = values[index]; //this should make it be ordered in the same way as the input
-            } else {
-              regularRowString += column + ': ' + values[index] + '\n';
-            }
+          columns = csvLines.shift().split(',');
+          if (columns[0].charCodeAt(0) === 0xFEFF) {
+              columns[0] = columns[0].slice(1);
           }
-        });
+      }
 
-        if (Object.keys(rowData).length &gt; 0) {
-          data.push(rowData);
+      csvLines.forEach(function (line) {
+        try {
+            // Use a regular expression to handle quoted values containing commas
+            var values = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g).map(function (value) {
+                // Remove leading and trailing quotes, if present
+                return value.replace(/^"|"$/g, '');
+            });
+
+            var rowData = {};
+            var highlightedRowString = '';
+            var regularRowString = '';
+            gs.info(values);
+            gs.info(highlightedKeys);
+            columns.forEach(function (column, index) {
+              gs.info(column);
+                if (values[index] &amp;&amp; values[index].trim() !== '') {
+                    rowData[column] = values[index];
+
+                    // Check if the key is in the highlighted keys
+                    var highlightIndex = highlightedKeys.indexOf(column);
+                    if (highlightIndex !== -1) {
+                        highlightedRowString += column + ': ' + values[index] + '\n';
+                        highlightedStrings[highlightIndex] = values[index];
+                    } else {
+                        regularRowString += column + ': ' + values[index] + '\n';
+                    }
+                }
+            });
+
+            if (Object.keys(rowData).length &gt; 0) {
+                data.push(rowData);
+            }
+
+            var rowString = highlightedRowString + '\n\n' + regularRowString;
+            if (rowString !== '') {
+                dataStrings.push(rowString.trim());
+            }
+        } catch (e) {
+            // Handle parsing errors gracefully
+            gs.error('Error parsing CSV line: ' + line + ' - ' + e.message);
         }
+    });
+}
+}
 
-        var rowString = highlightedRowString + '\n\n' + regularRowString;
-
-        if (rowString !== '') {
-          dataStrings.push(rowString.trim());
-        }
-      });
-    }
-  }
-
-  outputs.data = data;
-  outputs.datastrings = dataStrings;
-  outputs.highlightedstrings = highlightedStrings;
-  //gs.info('data : ' + data);
- // gs.info('data string : ' + dataStrings);
-
+outputs.data = JSON.stringify(data);
+outputs.datastrings = dataStrings;
+outputs.highlightedstrings = highlightedStrings;
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -340,12 +300,12 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>1a021aa31beba1908c5143f3cc4bcbea</id>
-        <sys_created_by>John.Schwab</sys_created_by>
-        <sys_created_on>2023-09-07 13:37:09</sys_created_on>
-        <sys_id>8c3f70cb1b0d751062e50ed2cd4bcb2d</sys_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-02-20 20:24:50</sys_created_on>
+        <sys_id>9e649da81ba4421062e50ed2cd4bcb23</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-07 13:37:09</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-20 20:24:50</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -519,6 +479,29 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=1a021aa31beba1908c5143f3cc4bcbea^sys_idNOT IN01f435151bd1b5108c5143f3cc4bcbfe,120296e31beba1908c5143f3cc4bcbe5,a8a262ef1b2fa1908c5143f3cc4bcbfd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD09f435156fd1b51047dc6b6b678e9af8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD09f435156fd1b51047dc6b6b678e9af8":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD09f435156fd1b51047dc6b6b678e9af8.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"highlightedStrings\",\"mandatory\":\"false\",\"child_name\":\"highlightedstrings_child0\",\"uiUniqueId\":\"efb8ee3f-63cb-434d-952f-6d6a0270162c\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD09f435156fd1b51047dc6b6b678e9af8\",\"child_label\":\"highlightedStrings_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"09126670-509c-4292-842e-c841764bed6d\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c9f435151bd1b5108c5143f3cc4bcbf8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -685,6 +668,29 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDaca262ef212fa190707e37885d73d2f9</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FDaca262ef212fa190707e37885d73d2f9":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDaca262ef212fa190707e37885d73d2f9.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"dataStrings\",\"mandatory\":\"false\",\"child_name\":\"datastrings_child0\",\"uiUniqueId\":\"f8616d41-d731-4119-a112-a52f493627d5\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDaca262ef212fa190707e37885d73d2f9\",\"child_label\":\"dataString\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"457c47c0-d24e-416a-9ca0-01058dc052ba\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-26 20:34:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60a262ef1b2fa1908c5143f3cc4bcbfa</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -840,6 +846,29 @@
         <url_target/>
     </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN48471a7f1ba325908c5143f3cc4bcb59,ce8292271beba1908c5143f3cc4bcbda"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4c471a7f76a3259045ee6e2da5b9bc54</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD4c471a7f76a3259045ee6e2da5b9bc54":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4c471a7f76a3259045ee6e2da5b9bc54.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Highlighted Keys\",\"mandatory\":\"false\",\"child_name\":\"highlighted_keys_child0\",\"uiUniqueId\":\"30fc9e03-3a09-45d7-b4df-f2c886c51f0a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD4c471a7f76a3259045ee6e2da5b9bc54\",\"child_label\":\"Highlighted Keys_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b14f32e3-d768-41f4-9d80-cecdea9fb847\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:23:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00471a7f1ba325908c5143f3cc4bcb55</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1009,6 +1038,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ce8292271beba1908c5143f3cc4bcbda"/>
     <sys_hub_action_output action="delete_multiple" query="model=76819eef1baba1908c5143f3cc4bcb39^sys_idNOT IN49f475151bd1b5108c5143f3cc4bcb28,5e0296e31beba1908c5143f3cc4bcbf2,828292271beba1908c5143f3cc4bcbfa,b4a2a2ef1b2fa1908c5143f3cc4bcb0a,c28292271beba1908c5143f3cc4bcbfe"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD8df4751580d1b5104fb71b1720b84b22</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD8df4751580d1b5104fb71b1720b84b22":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD8df4751580d1b5104fb71b1720b84b22.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"highlighted outputs\",\"mandatory\":\"false\",\"child_name\":\"highlighted_outputs_child0\",\"uiUniqueId\":\"ac9bab43-f23f-4daa-9c8d-a6404350cea3\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD8df4751580d1b5104fb71b1720b84b22\",\"child_label\":\"highlighted outputs_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"324916b7-aa94-41fb-a24d-c9a77e37b862\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41f475151bd1b5108c5143f3cc4bcb23</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1270,6 +1322,29 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=828292271beba1908c5143f3cc4bcbfa"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=828292271beba1908c5143f3cc4bcbfa"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD70a2a2ef602fa1908db0a684f8f8e007</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD70a2a2ef602fa1908db0a684f8f8e007":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD70a2a2ef602fa1908db0a684f8f8e007.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"JSON Strings\",\"mandatory\":\"false\",\"child_name\":\"json_strings_child0\",\"uiUniqueId\":\"fb48f146-eb71-46f5-888a-2498750fcfac\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD70a2a2ef602fa1908db0a684f8f8e007\",\"child_label\":\"JSON Strings_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e59eab10-0363-490d-a2c1-0b7ad4a251db\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-26 20:34:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34a2a2ef1b2fa1908c5143f3cc4bcb07</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1422,14 +1497,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:05</sys_created_on>
         <sys_id>c28292271beba1908c5143f3cc4bcbfe</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:24</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:24:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1761,17 +1836,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Parse CSV Attachment">76819eef1baba1908c5143f3cc4bcb39</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"c782d2271beba1908c5143f3cc4bcbd1","name":"plan","plan_signature":null}}</plan>
-        <snapshot>83f6a5391be5f5508c5143f3cc4bcb62</snapshot>
+        <snapshot>6fc9d2301ba4061062e50ed2cd4bcb71</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c782d2271beba1908c5143f3cc4bcbd1</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:50:04</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:32</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1834,10 +1909,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>e282d2271beba1908c5143f3cc4bcb79</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:34</sys_updated_on>
-        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"action_error_output\":\"true\",\"label\":\"Code\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"action_error_output\":\"true\",\"label\":\"Message\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"read_only\":\"true\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Action Status\",\"read_only_complex_object\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"8e3eb395-c990-4a7d-b8da-081a1acab7eb\"}"}},"serializationFormat":"JSON"}</value>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-20 20:25:05</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
         <variable display_value="Action Status">e682d2271beba1908c5143f3cc4bcb6e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=de82d2271beba1908c5143f3cc4bcb44"/>
@@ -1919,10 +1994,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>aa82d2271beba1908c5143f3cc4bcb54</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:50:01</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa82d2271beba1908c5143f3cc4bcb54"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1947,9 +2022,9 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ea82d2271beba1908c5143f3cc4bcb66</sys_id>
-        <sys_mod_count>34</sys_mod_count>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:50:01</sys_updated_on>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 
   var attachmentSysId = inputs.attachmentSysId;
@@ -1964,110 +2039,68 @@
   if (attachment.get(attachmentSysId)) {
     var sa = new GlideSysAttachment();
     var attachmentStream = sa.getContentStream(attachmentSysId);
-	//gs.info('data attachment stream : ' + attachmentStream);
     if (attachmentStream != null) {
       var reader = new GlideTextReader(attachmentStream);
       var ln;
       var csvLines = [];
 
-      while((ln = reader.readLine()) != null) {
-        csvLines.push(ln);
+      while ((ln = reader.readLine()) != null) {
+          csvLines.push(ln);
       }
-      //gs.info('data csvlines : ' + csvLines);
 
       if (columns.length === 0 &amp;&amp; csvLines.length &gt; 0) {
-        columns = csvLines.shift().split(',');
-
-        if (columns[0].charCodeAt(0) === 0xFEFF) {
-          columns[0] = columns[0].slice(1);
-        }
-      }
-	  //gs.info('data csv - Collumns : ' + columns);
-      
-      csvLines.forEach(function(line) {
-        //gs.info('data csv - Line Values : ' + line);
-        
-        //normally splitting by comma is fine, HOWEVER in exactly the case of having submitted a comma in the value field
-        //this will cause issues:
-        //when this occurs the value in questions will be ,"value,value", instead of ,value,
-        //so first we need to check for that
-		
-        //loop this as many times as necessary
-        var values = [];
-        var notDone = true;
-        var currIndex = 0;
-        while(notDone){
-  	        //find the first element of quotations, at that point split the array
-			var indexOf = line.indexOf(',"');
-          	var secondIndexOf = line.indexOf('"', indexOf+2);
-          	if(line[0] == '"'){//if it starts with a quote
-            	values.push(line.substring(1, secondIndexOf-1));
-              	line = line.substring(secondIndexOf+1);
-            }
-          	else if(indexOf != -1){
-              	//var secondIndexOf = line.indexOf('"', indexOf+2);
-          		var tempArr = (line.substring(currIndex, indexOf-1)).split(',');//find substring up to that pointand then split it
-              	for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
-                	values.push(tempArr[arr_i]);  
-                }
-              
-              	values.push(line.substring(indexOf+2, secondIndexOf)), //push the value of the quotations
-                //set lines to lines past that point
-                line = line.substring(secondIndexOf+1);
-            }
-          	else{
-              //no more quotations exist
-              var tempArr = line.split(',');
-              for(var arr_i = 0; arr_i&lt;tempArr.length; arr_i++){
-                	values.push(tempArr[arr_i]);  
-              }
-              notDone = false;
-            }
-          
-        }
-        //gs.info('data csv - values : ' + values);
-        
-        //var values = line.split(',');
-
-        var rowData = {};
-        var highlightedRowString = '';
-        var regularRowString = '';
-
-        columns.forEach(function(column, index) {
-          if (values[index] &amp;&amp; values[index].trim() !== '') {
-            rowData[column] = values[index];
-            
-            // Check if the key is in the highlighted keys
-            if (highlightedKeys.indexOf(column) !== -1) {
-              highlightedRowString += column + ': ' + values[index] + '\n';
-              //push to the highlighted array
-              //highlightedStrings.push(values[index]); //push only the value
-              highlightedStrings[highlightedKeys.indexOf(column)] = values[index]; //this should make it be ordered in the same way as the input
-            } else {
-              regularRowString += column + ': ' + values[index] + '\n';
-            }
+          columns = csvLines.shift().split(',');
+          if (columns[0].charCodeAt(0) === 0xFEFF) {
+              columns[0] = columns[0].slice(1);
           }
-        });
+      }
 
-        if (Object.keys(rowData).length &gt; 0) {
-          data.push(rowData);
+      csvLines.forEach(function (line) {
+        try {
+            // Use a regular expression to handle quoted values containing commas
+            var values = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g).map(function (value) {
+                // Remove leading and trailing quotes, if present
+                return value.replace(/^"|"$/g, '');
+            });
+
+            var rowData = {};
+            var highlightedRowString = '';
+            var regularRowString = '';
+
+            columns.forEach(function (column, index) {
+                if (values[index] &amp;&amp; values[index].trim() !== '') {
+                    rowData[column] = values[index];
+
+                    // Check if the key is in the highlighted keys
+                    var highlightIndex = highlightedKeys.indexOf(column);
+                    if (highlightIndex !== -1) {
+                        highlightedRowString += column + ': ' + values[index] + '\n';
+                        highlightedStrings[highlightIndex] = values[index];
+                    } else {
+                        regularRowString += column + ': ' + values[index] + '\n';
+                    }
+                }
+            });
+
+            if (Object.keys(rowData).length &gt; 0) {
+                data.push(rowData);
+            }
+
+            var rowString = highlightedRowString + '\n\n' + regularRowString;
+            if (rowString !== '') {
+                dataStrings.push(rowString.trim());
+            }
+        } catch (e) {
+            // Handle parsing errors gracefully
+            gs.error('Error parsing CSV line: ' + line + ' - ' + e.message);
         }
+    });
+}
+}
 
-        var rowString = highlightedRowString + '\n\n' + regularRowString;
-
-        if (rowString !== '') {
-          dataStrings.push(rowString.trim());
-        }
-      });
-    }
-  }
-
-  outputs.data = data;
-  outputs.datastrings = dataStrings;
-  outputs.highlightedstrings = highlightedStrings;
-  //gs.info('data : ' + data);
- // gs.info('data string : ' + dataStrings);
-
+outputs.data = JSON.stringify(data);
+outputs.datastrings = dataStrings;
+outputs.highlightedstrings = highlightedStrings;
 })(inputs, outputs);</value>
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -2111,12 +2144,12 @@
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>script</field>
         <id>aa82d2271beba1908c5143f3cc4bcb54</id>
-        <sys_created_by>John.Schwab</sys_created_by>
-        <sys_created_on>2023-09-07 13:37:25</sys_created_on>
-        <sys_id>ff3ff0cb1b0d751062e50ed2cd4bcb1c</sys_id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-02-20 20:25:05</sys_created_on>
+        <sys_id>0a74d1e81ba4421062e50ed2cd4bcb41</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-07 13:37:25</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-20 20:25:05</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
         <value/>
     </sys_element_mapping>
@@ -2373,6 +2406,29 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDd1a2a2ef1d2fa1908c1d480e07e421ac</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FDd1a2a2ef1d2fa1908c1d480e07e421ac":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDd1a2a2ef1d2fa1908c1d480e07e421ac.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"dataStrings\",\"mandatory\":\"false\",\"child_name\":\"datastrings_child0\",\"uiUniqueId\":\"f8616d41-d731-4119-a112-a52f493627d5\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDd1a2a2ef1d2fa1908c1d480e07e421ac\",\"child_label\":\"dataString\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"457c47c0-d24e-416a-9ca0-01058dc052ba\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-26 20:34:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95a2a2ef1b2fa1908c5143f3cc4bcbac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2456,6 +2512,29 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9bf4b51511d1b510968649e70fe3d293</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD9bf4b51511d1b510968649e70fe3d293":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD9bf4b51511d1b510968649e70fe3d293.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"highlightedStrings\",\"mandatory\":\"false\",\"child_name\":\"highlightedstrings_child0\",\"uiUniqueId\":\"efb8ee3f-63cb-434d-952f-6d6a0270162c\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD9bf4b51511d1b510968649e70fe3d293\",\"child_label\":\"highlightedStrings_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"09126670-509c-4292-842e-c841764bed6d\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ff4b5151bd1b5108c5143f3cc4bcb93</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2611,6 +2690,29 @@
         <url_target/>
     </sys_documentation>
     <sys_hub_action_input action="delete_multiple" query="model=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN18285aff1ba325908c5143f3cc4bcb21,2a82d2271beba1908c5143f3cc4bcb4e"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD18285affffa325902d8b6b9556246b1d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD18285affffa325902d8b6b9556246b1d":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD18285affffa325902d8b6b9556246b1d.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Highlighted Keys\",\"mandatory\":\"false\",\"child_name\":\"highlighted_keys_child0\",\"uiUniqueId\":\"30fc9e03-3a09-45d7-b4df-f2c886c51f0a\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD18285affffa325902d8b6b9556246b1d\",\"child_label\":\"Highlighted Keys_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"b14f32e3-d768-41f4-9d80-cecdea9fb847\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-27 14:27:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8285aff1ba325908c5143f3cc4bcb1d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2780,6 +2882,29 @@
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2a82d2271beba1908c5143f3cc4bcb4e"/>
     <sys_hub_action_output action="delete_multiple" query="model=de82d2271beba1908c5143f3cc4bcb44^sys_idNOT IN55a2a2ef1b2fa1908c5143f3cc4bcbbb,6a82d2271beba1908c5143f3cc4bcb6a,6ff4b5151bd1b5108c5143f3cc4bcba7,e682d2271beba1908c5143f3cc4bcb6e,ee82d2271beba1908c5143f3cc4bcb71"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD11a2a2efb22fa190bd36b562c54bc1b8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD11a2a2efb22fa190bd36b562c54bc1b8":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD11a2a2efb22fa190bd36b562c54bc1b8.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"JSON Strings\",\"mandatory\":\"false\",\"child_name\":\"json_strings_child0\",\"uiUniqueId\":\"fb48f146-eb71-46f5-888a-2498750fcfac\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD11a2a2efb22fa190bd36b562c54bc1b8\",\"child_label\":\"JSON Strings_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"e59eab10-0363-490d-a2c1-0b7ad4a251db\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2023-06-26 20:34:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1a2a2ef1b2fa1908c5143f3cc4bcbb8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2954,6 +3079,29 @@
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6a82d2271beba1908c5143f3cc4bcb6a"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6a82d2271beba1908c5143f3cc4bcb6a"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD93f4b51540d1b510e510247b121f63a2</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>e80fff5d1b9c99908c5143f3cc4bcb2a</scope_name>
+        <serialized_content>{"FlowDesigner:FD93f4b51540d1b510e510247b121f63a2":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD93f4b51540d1b510e510247b121f63a2.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"highlighted outputs\",\"mandatory\":\"false\",\"child_name\":\"highlighted_outputs_child0\",\"uiUniqueId\":\"ac9bab43-f23f-4daa-9c8d-a6404350cea3\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD93f4b51540d1b510e510247b121f63a2\",\"child_label\":\"highlighted outputs_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"324916b7-aa94-41fb-a24d-c9a77e37b862\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-09-14 17:18:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57f4b5151bd1b5108c5143f3cc4bcba2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:29</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3193,14 +3341,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2023-06-26 19:24:07</sys_created_on>
         <sys_id>ee82d2271beba1908c5143f3cc4bcb71</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>John.Schwab</sys_updated_by>
-        <sys_updated_on>2023-09-14 17:18:34</sys_updated_on>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-02-21 20:06:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3531,6 +3679,6 @@
     <sys_hub_action_type_definition action="UPDATE">
         <sys_id>76819eef1baba1908c5143f3cc4bcb39</sys_id>
         <latest_snapshot>de82d2271beba1908c5143f3cc4bcb44</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2b-07-19-2023_08-01-2023_1829.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch6-01-11-2024_01-22-2024_2201.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>
