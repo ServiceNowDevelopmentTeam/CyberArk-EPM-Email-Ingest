@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>reqf__cyberark_assignment__s</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>REQF - CyberArk Assignment - S</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-03-26 14:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>268c8c371b0d4e90c16ddb9ebd4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REQF - CyberArk Assignment - S</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_update_name>sys_hub_flow_268c8c371b0d4e90c16ddb9ebd4bcb8b</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-03-26 14:02:28</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_variable_value action="DELETE" query="document_key=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=268c8c371b0d4e90c16ddb9ebd4bcb8b^sys_idNOT INae8c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>268c8c371b0d4e90c16ddb9ebd4bcb8b</id>
+        <name>REQF - CyberArk Assignment - S</name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-03-26 14:02:28</sys_created_on>
+        <sys_id>ae8c8c371b0d4e90c16ddb9ebd4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-03-26 14:02:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=ae8c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_flow_input action="DELETE" query="model=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_flow_output action="DELETE" query="model=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_action_instance action="DELETE" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_hub_flow_variable action="DELETE" query="model=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=268c8c371b0d4e90c16ddb9ebd4bcb8b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_hub_flow_268c8c371b0d4e90c16ddb9ebd4bcb8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>reqf__cyberark_assignment__s</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>REQF - CyberArk Assignment - S</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2024-03-26 14:02:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>268c8c371b0d4e90c16ddb9ebd4bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>REQF - CyberArk Assignment - S</sys_name><sys_overrides/><sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package><sys_policy/><sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope><sys_update_name>sys_hub_flow_268c8c371b0d4e90c16ddb9ebd4bcb8b</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2024-03-26 14:02:28</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_variable_value action="delete_multiple" query="document_key=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_trigger_instance action="delete_multiple" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_flow_stage action="delete_multiple" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_flow_cat_variable_model action="delete_multiple" query="id=268c8c371b0d4e90c16ddb9ebd4bcb8b^sys_idNOT INae8c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>268c8c371b0d4e90c16ddb9ebd4bcb8b</id><name>REQF - CyberArk Assignment - S</name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2024-03-26 14:02:28</sys_created_on><sys_id>ae8c8c371b0d4e90c16ddb9ebd4bcb8b</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2024-03-26 14:02:28</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=ae8c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_flow_input action="delete_multiple" query="model=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_flow_output action="delete_multiple" query="model=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_action_instance action="delete_multiple" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_flow_logic action="delete_multiple" query="flow=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_hub_flow_variable action="delete_multiple" query="model=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=268c8c371b0d4e90c16ddb9ebd4bcb8b"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=268c8c371b0d4e90c16ddb9ebd4bcb8b"/></record_update>]]></payload>
+        <payload_hash>1167272741</payload_hash>
+        <record_name>REQF - CyberArk Assignment - S</record_name>
+        <reverted_from/>
+        <source>216593c41b24cad462e50ed2cd4bcbae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-03-26 14:02:28</sys_created_on>
+        <sys_id>ee8c8c371b0d4e90c16ddb9ebd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e7b11cf150000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-03-26 14:02:28</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>a28c8c37730d4e90c70c64abbc632391</update_guid>
+        <update_guid_history>a28c8c37730d4e90c70c64abbc632391:1167272741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-03-26 14:03:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>32b012e71bc4460a8b949dc4b704d084</sys_id>
+        <sys_metadata>268c8c371b0d4e90c16ddb9ebd4bcb8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REQF - CyberArk Assignment - S</sys_name>
+        <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
+        <sys_scope_delete display_value="">1666682108514e2494d046720187ce84</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_268c8c371b0d4e90c16ddb9ebd4bcb8b</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_268c8c371b0d4e90c16ddb9ebd4bcb8b">ee8c8c371b0d4e90c16ddb9ebd4bcb91</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-03-26 14:03:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
