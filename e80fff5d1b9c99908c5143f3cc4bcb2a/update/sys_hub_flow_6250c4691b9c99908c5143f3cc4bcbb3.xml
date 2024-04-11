@@ -4,14 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=56754483000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=edge,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=56757399000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>email_ingest__cyberark_epm</internal_name>
-        <label_cache>[{"name":"cebf66bf-beb0-4a26-97e9-23b9b9639c7c.value","label":"8 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"8116a60b-868d-44dc-bcdf-c4d362d221fd.item","label":"3 - For Each➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3c629a9e-9ce6-422e-8f18-844a0a5d416e.parameter","label":"1 - Get Attachments on Record➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiType":"records","uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.user_name","label":"Flow Variables➛User Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b55923d4-4547-4fc3-9172-4541c78871fd"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.file_name","label":"Flow Variables➛file name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e2d990ff-ff2f-4ece-8d63-6d3a91323f00"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.variable","label":"4 - Parse CSV Attachment➛highlighted outputs","reference_display":"highlighted outputs","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD93f4b51540d1b510e510247b121f63a2","child_label":"highlighted outputs_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"highlighted_outputs_child0","child_uiUniqueId":"324916b7-aa94-41fb-a24d-c9a77e37b862","uiUniqueId":"ac9bab43-f23f-4daa-9c8d-a6404350cea3"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.json_strings","label":"4 - Parse CSV Attachment➛JSON Strings","reference_display":"JSON Strings","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD11a2a2efb22fa190bd36b562c54bc1b8","child_label":"JSON Strings_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"json_strings_child0","child_uiUniqueId":"e59eab10-0363-490d-a2c1-0b7ad4a251db","uiUniqueId":"fb48f146-eb71-46f5-888a-2498750fcfac"}},{"name":"fc8ecd99-8133-4591-a937-d1caa85458d8.item","label":"5 - For Each➛JSON Strings_child0","reference_display":"JSON Strings_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"6a0cf142-8950-4a6a-a5e0-c85e9a7fc1fb.Record","label":"11 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.line_number","label":"Flow Variables➛Line Number","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2095c2d5-cdb8-4012-8547-debdf3ff462b"}},{"name":"8ed2f458-94fc-4809-b49d-b92c25db7620.value","label":"9 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"c01fec4d-ff35-452c-9b77-ce8c5f9a98b8.value","label":"7 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}}]</label_cache>
+        <label_cache>[{"name":"c01fec4d-ff35-452c-9b77-ce8c5f9a98b8.value","label":"7 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"8ed2f458-94fc-4809-b49d-b92c25db7620.value","label":"9 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"flow_variable.line_number","label":"Flow Variables➛Line Number","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2095c2d5-cdb8-4012-8547-debdf3ff462b"}},{"name":"6a0cf142-8950-4a6a-a5e0-c85e9a7fc1fb.Record","label":"11 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fc8ecd99-8133-4591-a937-d1caa85458d8.item","label":"5 - For Each➛JSON Strings_child0","reference_display":"JSON Strings_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.json_strings","label":"4 - Parse CSV Attachment➛JSON Strings","reference_display":"JSON Strings","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD11a2a2efb22fa190bd36b562c54bc1b8","child_label":"JSON Strings_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"json_strings_child0","child_uiUniqueId":"e59eab10-0363-490d-a2c1-0b7ad4a251db","uiUniqueId":"fb48f146-eb71-46f5-888a-2498750fcfac"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.variable","label":"4 - Parse CSV Attachment➛highlighted outputs","reference_display":"highlighted outputs","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD93f4b51540d1b510e510247b121f63a2","child_label":"highlighted outputs_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"highlighted_outputs_child0","child_uiUniqueId":"324916b7-aa94-41fb-a24d-c9a77e37b862","uiUniqueId":"ac9bab43-f23f-4daa-9c8d-a6404350cea3"}},{"name":"flow_variable.file_name","label":"Flow Variables➛file name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e2d990ff-ff2f-4ece-8d63-6d3a91323f00"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.user_name","label":"Flow Variables➛User Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b55923d4-4547-4fc3-9172-4541c78871fd"}},{"name":"3c629a9e-9ce6-422e-8f18-844a0a5d416e.parameter","label":"1 - Get Attachments on Record➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiType":"records","uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8116a60b-868d-44dc-bcdf-c4d362d221fd.item","label":"3 - For Each➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cebf66bf-beb0-4a26-97e9-23b9b9639c7c.value","label":"8 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"3c4a8861-489b-49a2-a83a-2960879f23ab.requested_item","label":"12 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}}]</label_cache>
         <master_snapshot>5ef1402d1bdc99908c5143f3cc4bcb5d</master_snapshot>
         <name>INGF - CyberArk EPM - S</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6250c4691b9c99908c5143f3cc4bcbb3</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>INGF - CyberArk EPM - S</sys_name>
         <sys_overrides/>
         <sys_package display_value="CyberArk EPM Email Ingest" source="x_apig_cyberark_ep">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name>sys_hub_flow_6250c4691b9c99908c5143f3cc4bcbb3</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:44</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=6250c4691b9c99908c5143f3cc4bcbb3"/>
@@ -57,11 +57,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aef1802d1bdc99908c5143f3cc4bcbe3</sys_id>
-        <sys_mod_count>64</sys_mod_count>
+        <sys_mod_count>65</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:15</sys_updated_on>
         <target_table/>
     </sys_flow_email_trigger>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=6250c4691b9c99908c5143f3cc4bcbb3"/>
@@ -75,10 +75,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:23</sys_created_on>
         <sys_id>719084e51bdc99908c5143f3cc4bcb7a</sys_id>
-        <sys_mod_count>179</sys_mod_count>
+        <sys_mod_count>181</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -191,14 +191,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>319084e51bdc99908c5143f3cc4bcb4b</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -275,14 +275,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>399084e51bdc99908c5143f3cc4bcb70</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -359,14 +359,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>759044e51bdc99908c5143f3cc4bcbed</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -443,14 +443,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>759084e51bdc99908c5143f3cc4bcb51</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -527,14 +527,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>799084e51bdc99908c5143f3cc4bcb0c</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -614,14 +614,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>ad9044e51bdc99908c5143f3cc4bcbe5</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -698,14 +698,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:03:22</sys_created_on>
         <sys_id>bd9084e51bdc99908c5143f3cc4bcb12</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -737,10 +737,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-09-07 13:52:00</sys_created_on>
         <sys_id>2192498f1b0d751062e50ed2cd4bcb18</sys_id>
-        <sys_mod_count>326</sys_mod_count>
+        <sys_mod_count>332</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <ui_id>8fd21ca3-49c9-4762-b26a-607346cb75f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2192498f1b0d751062e50ed2cd4bcb18"/>
@@ -800,10 +800,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-11 20:22:23</sys_created_on>
         <sys_id>59a314071bf00610c16ddb9ebd4bcb10</sys_id>
-        <sys_mod_count>116</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:44</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>6a0cf142-8950-4a6a-a5e0-c85e9a7fc1fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=59a314071bf00610c16ddb9ebd4bcb10"/>
@@ -889,10 +889,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:18:14</sys_created_on>
         <sys_id>a78e49571b30c61062e50ed2cd4bcbba</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>8ed2f458-94fc-4809-b49d-b92c25db7620</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a78e49571b30c61062e50ed2cd4bcbba"/>
@@ -965,10 +965,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-08-29 20:21:08</sys_created_on>
         <sys_id>b5558c181b4dfd1062e50ed2cd4bcb68</sys_id>
-        <sys_mod_count>368</sys_mod_count>
+        <sys_mod_count>374</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <ui_id>3c629a9e-9ce6-422e-8f18-844a0a5d416e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b5558c181b4dfd1062e50ed2cd4bcb68"/>
@@ -1002,10 +1002,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:36:58</sys_created_on>
         <sys_id>ced2551f1b30c61062e50ed2cd4bcbda</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>cebf66bf-beb0-4a26-97e9-23b9b9639c7c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ced2551f1b30c61062e50ed2cd4bcbda"/>
@@ -1078,10 +1078,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-04-11 15:10:06</sys_created_on>
         <sys_id>d1757a381bad061062e50ed2cd4bcbae</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:44</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>3c4a8861-489b-49a2-a83a-2960879f23ab</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d1757a381bad061062e50ed2cd4bcbae"/>
@@ -1167,10 +1167,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:18:13</sys_created_on>
         <sys_id>e78e49571b30c61062e50ed2cd4bcbb0</sys_id>
-        <sys_mod_count>62</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>c01fec4d-ff35-452c-9b77-ce8c5f9a98b8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e78e49571b30c61062e50ed2cd4bcbb0"/>
@@ -1235,6 +1235,7 @@
         <display_text/>
         <flow display_value="INGF - CyberArk EPM - S">6250c4691b9c99908c5143f3cc4bcbb3</flow>
         <inputs/>
+        <inputs/>
         <order>13</order>
         <parent_ui_id>fc8ecd99-8133-4591-a937-d1caa85458d8</parent_ui_id>
         <subflow display_value="CyberArk Assignment">7bfcc4771b0d4e90c16ddb9ebd4bcbf2</subflow>
@@ -1243,14 +1244,26 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-26 14:07:26</sys_created_on>
         <sys_id>1fad44b71b0d4e90c16ddb9ebd4bcb20</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:44</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>4309c6bb-8e14-41d9-bdc7-c6e2be34d4a5</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1fad44b71b0d4e90c16ddb9ebd4bcb20"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_7bfcc4771b0d4e90c16ddb9ebd4bcbf2^id=1fad44b71b0d4e90c16ddb9ebd4bcb20"/>
+    <sys_element_mapping action="delete_multiple" query="id=1fad44b71b0d4e90c16ddb9ebd4bcb20"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ritm</field>
+        <id>1fad44b71b0d4e90c16ddb9ebd4bcb20</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-03-26 14:07:26</sys_created_on>
+        <sys_id>13ad44b71b0d4e90c16ddb9ebd4bcb43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-04-11 15:58:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_7bfcc4771b0d4e90c16ddb9ebd4bcbf2</table>
+        <value>{{3c4a8861-489b-49a2-a83a-2960879f23ab.requested_item}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_1fad44b71b0d4e90c16ddb9ebd4bcb20^id=1fad44b71b0d4e90c16ddb9ebd4bcb20"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=1fad44b71b0d4e90c16ddb9ebd4bcb20^sys_idNOT INd3ad44b71b0d4e90c16ddb9ebd4bcb22"/>
     <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
@@ -1361,10 +1374,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-11 20:17:30</sys_created_on>
         <sys_id>35829ccf1bb00610c16ddb9ebd4bcb77</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>fc8ecd99-8133-4591-a937-d1caa85458d8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1409,10 +1422,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-08-29 20:21:08</sys_created_on>
         <sys_id>75558c181b4dfd1062e50ed2cd4bcb6b</sys_id>
-        <sys_mod_count>126</sys_mod_count>
+        <sys_mod_count>128</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <ui_id>8116a60b-868d-44dc-bcdf-c4d362d221fd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1456,10 +1469,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 18:32:14</sys_created_on>
         <sys_id>7904cd1b1bfc861062e50ed2cd4bcb13</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:16</sys_updated_on>
         <ui_id>e48ac252-c319-4ba1-a6a8-a537ab2aeb97</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1505,10 +1518,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-11 20:22:22</sys_created_on>
         <sys_id>c9a3d0071bf00610c16ddb9ebd4bcbcd</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:43</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>b69acb21-2d4d-4096-8208-3bdeb10f77c5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1566,10 +1579,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-09-14 17:32:51</sys_created_on>
         <sys_id>f44879d51bd1b5108c5143f3cc4bcbcf</sys_id>
-        <sys_mod_count>83</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:44</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:17</sys_updated_on>
         <ui_id>e84ed48f-bc46-455a-b531-84729270984f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2794,7 +2807,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>email_ingest__cyberark_epm</internal_name>
-        <label_cache>[{"name":"cebf66bf-beb0-4a26-97e9-23b9b9639c7c.value","label":"8 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"8116a60b-868d-44dc-bcdf-c4d362d221fd.item","label":"3 - For Each➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"3c629a9e-9ce6-422e-8f18-844a0a5d416e.parameter","label":"1 - Get Attachments on Record➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiType":"records","uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.user_name","label":"Flow Variables➛User Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b55923d4-4547-4fc3-9172-4541c78871fd"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.file_name","label":"Flow Variables➛file name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e2d990ff-ff2f-4ece-8d63-6d3a91323f00"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.variable","label":"4 - Parse CSV Attachment➛highlighted outputs","reference_display":"highlighted outputs","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD93f4b51540d1b510e510247b121f63a2","child_label":"highlighted outputs_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"highlighted_outputs_child0","child_uiUniqueId":"324916b7-aa94-41fb-a24d-c9a77e37b862","uiUniqueId":"ac9bab43-f23f-4daa-9c8d-a6404350cea3"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.json_strings","label":"4 - Parse CSV Attachment➛JSON Strings","reference_display":"JSON Strings","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD11a2a2efb22fa190bd36b562c54bc1b8","child_label":"JSON Strings_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"json_strings_child0","child_uiUniqueId":"e59eab10-0363-490d-a2c1-0b7ad4a251db","uiUniqueId":"fb48f146-eb71-46f5-888a-2498750fcfac"}},{"name":"fc8ecd99-8133-4591-a937-d1caa85458d8.item","label":"5 - For Each➛JSON Strings_child0","reference_display":"JSON Strings_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"6a0cf142-8950-4a6a-a5e0-c85e9a7fc1fb.Record","label":"11 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.line_number","label":"Flow Variables➛Line Number","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2095c2d5-cdb8-4012-8547-debdf3ff462b"}},{"name":"8ed2f458-94fc-4809-b49d-b92c25db7620.value","label":"9 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"c01fec4d-ff35-452c-9b77-ce8c5f9a98b8.value","label":"7 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}}]</label_cache>
+        <label_cache>[{"name":"c01fec4d-ff35-452c-9b77-ce8c5f9a98b8.value","label":"7 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"8ed2f458-94fc-4809-b49d-b92c25db7620.value","label":"9 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"flow_variable.line_number","label":"Flow Variables➛Line Number","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2095c2d5-cdb8-4012-8547-debdf3ff462b"}},{"name":"6a0cf142-8950-4a6a-a5e0-c85e9a7fc1fb.Record","label":"11 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fc8ecd99-8133-4591-a937-d1caa85458d8.item","label":"5 - For Each➛JSON Strings_child0","reference_display":"JSON Strings_child0","type":"string","base_type":"string","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.json_strings","label":"4 - Parse CSV Attachment➛JSON Strings","reference_display":"JSON Strings","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD11a2a2efb22fa190bd36b562c54bc1b8","child_label":"JSON Strings_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"json_strings_child0","child_uiUniqueId":"e59eab10-0363-490d-a2c1-0b7ad4a251db","uiUniqueId":"fb48f146-eb71-46f5-888a-2498750fcfac"}},{"name":"8fd21ca3-49c9-4762-b26a-607346cb75f1.variable","label":"4 - Parse CSV Attachment➛highlighted outputs","reference_display":"highlighted outputs","type":"array.string","base_type":"array.string","attributes":{"uiTypeLabel":"Array.String","co_type_name":"FD93f4b51540d1b510e510247b121f63a2","child_label":"highlighted outputs_child0","child_type_label":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.string","child_type":"string","child_name":"highlighted_outputs_child0","child_uiUniqueId":"324916b7-aa94-41fb-a24d-c9a77e37b862","uiUniqueId":"ac9bab43-f23f-4daa-9c8d-a6404350cea3"}},{"name":"flow_variable.file_name","label":"Flow Variables➛file name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e2d990ff-ff2f-4ece-8d63-6d3a91323f00"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger - Inbound Email➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"flow_variable.user_name","label":"Flow Variables➛User Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"b55923d4-4547-4fc3-9172-4541c78871fd"}},{"name":"3c629a9e-9ce6-422e-8f18-844a0a5d416e.parameter","label":"1 - Get Attachments on Record➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"uiType":"records","uiTypeLabel":"Records","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8116a60b-868d-44dc-bcdf-c4d362d221fd.item","label":"3 - For Each➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cebf66bf-beb0-4a26-97e9-23b9b9639c7c.value","label":"8 - Get String from Array Position➛Value","reference_display":"Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"9e4dd2b8-606b-47ad-9eaf-4a816633295d"}},{"name":"3c4a8861-489b-49a2-a83a-2960879f23ab.requested_item","label":"12 - Submit Catalog Item Request➛Requested Item","reference":"sc_req_item","reference_display":"Requested Item","type":"document_id","base_type":"document_id","attributes":{"uiType":"document_id","uiTypeLabel":"Document ID","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"aad3452b-309c-469c-9797-4df9ef6f86be"}}]</label_cache>
         <master>true</master>
         <name>INGF - CyberArk EPM - S</name>
         <natlang/>
@@ -2811,7 +2824,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ef1402d1bdc99908c5143f3cc4bcb5d</sys_id>
-        <sys_mod_count>65</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2819,7 +2832,7 @@
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:38</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:11</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=5ef1402d1bdc99908c5143f3cc4bcb5d"/>
@@ -2834,10 +2847,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:26</sys_created_on>
         <sys_id>e2f1802d1bdc99908c5143f3cc4bcbbe</sys_id>
-        <sys_mod_count>196</sys_mod_count>
+        <sys_mod_count>199</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:15</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2953,14 +2966,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>12f1402d1bdc99908c5143f3cc4bcbee</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3037,14 +3050,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>1ef1402d1bdc99908c5143f3cc4bcbcb</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3121,14 +3134,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>52f1402d1bdc99908c5143f3cc4bcbe3</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3205,14 +3218,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>56f1802d1bdc99908c5143f3cc4bcb29</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3289,14 +3302,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>5ef1402d1bdc99908c5143f3cc4bcb60</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3373,14 +3386,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:26</sys_created_on>
         <sys_id>6af1802d1bdc99908c5143f3cc4bcb72</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3457,14 +3470,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-24 18:09:25</sys_created_on>
         <sys_id>96f1802d1bdc99908c5143f3cc4bcb05</sys_id>
-        <sys_mod_count>129</sys_mod_count>
+        <sys_mod_count>131</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:35</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3496,10 +3509,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-08-29 20:21:18</sys_created_on>
         <sys_id>1c6500581b4dfd1062e50ed2cd4bcb7d</sys_id>
-        <sys_mod_count>180</sys_mod_count>
+        <sys_mod_count>184</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>3c629a9e-9ce6-422e-8f18-844a0a5d416e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1c6500581b4dfd1062e50ed2cd4bcb7d"/>
@@ -3533,10 +3546,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:37:08</sys_created_on>
         <sys_id>24e2191f1b30c61062e50ed2cd4bcb48</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>cebf66bf-beb0-4a26-97e9-23b9b9639c7c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24e2191f1b30c61062e50ed2cd4bcb48"/>
@@ -3609,10 +3622,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:18:36</sys_created_on>
         <sys_id>49aecd571b30c61062e50ed2cd4bcb58</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>c01fec4d-ff35-452c-9b77-ce8c5f9a98b8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=49aecd571b30c61062e50ed2cd4bcb58"/>
@@ -3685,10 +3698,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-11 20:22:44</sys_created_on>
         <sys_id>62b398071bf00610c16ddb9ebd4bcbbb</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:37</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>6a0cf142-8950-4a6a-a5e0-c85e9a7fc1fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=62b398071bf00610c16ddb9ebd4bcbbb"/>
@@ -3774,10 +3787,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-09-07 13:52:07</sys_created_on>
         <sys_id>8b92898f1b0d751062e50ed2cd4bcbc1</sys_id>
-        <sys_mod_count>168</sys_mod_count>
+        <sys_mod_count>172</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>8fd21ca3-49c9-4762-b26a-607346cb75f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8b92898f1b0d751062e50ed2cd4bcbc1"/>
@@ -3837,10 +3850,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:18:36</sys_created_on>
         <sys_id>cdaecd571b30c61062e50ed2cd4bcb60</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>8ed2f458-94fc-4809-b49d-b92c25db7620</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cdaecd571b30c61062e50ed2cd4bcb60"/>
@@ -3913,10 +3926,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-04-11 15:10:34</sys_created_on>
         <sys_id>d49532781bad061062e50ed2cd4bcb32</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:37</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:11</sys_updated_on>
         <ui_id>3c4a8861-489b-49a2-a83a-2960879f23ab</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d49532781bad061062e50ed2cd4bcb32"/>
@@ -3994,6 +4007,7 @@
         <display_text/>
         <flow display_value="INGF - CyberArk EPM - S">5ef1402d1bdc99908c5143f3cc4bcb5d</flow>
         <inputs/>
+        <inputs/>
         <order>13</order>
         <parent_ui_id>fc8ecd99-8133-4591-a937-d1caa85458d8</parent_ui_id>
         <subflow display_value="CyberArk Assignment">7bfcc4771b0d4e90c16ddb9ebd4bcbf2</subflow>
@@ -4002,14 +4016,26 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-26 14:08:07</sys_created_on>
         <sys_id>9ddd0cb71b0d4e90c16ddb9ebd4bcb3e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:37</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:11</sys_updated_on>
         <ui_id>4309c6bb-8e14-41d9-bdc7-c6e2be34d4a5</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ddd0cb71b0d4e90c16ddb9ebd4bcb3e"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_7bfcc4771b0d4e90c16ddb9ebd4bcbf2^id=9ddd0cb71b0d4e90c16ddb9ebd4bcb3e"/>
+    <sys_element_mapping action="delete_multiple" query="id=9ddd0cb71b0d4e90c16ddb9ebd4bcb3e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ritm</field>
+        <id>9ddd0cb71b0d4e90c16ddb9ebd4bcb3e</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-03-26 14:08:07</sys_created_on>
+        <sys_id>51dd0cb71b0d4e90c16ddb9ebd4bcb4e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-04-11 15:59:09</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_7bfcc4771b0d4e90c16ddb9ebd4bcbf2</table>
+        <value>{{3c4a8861-489b-49a2-a83a-2960879f23ab.requested_item}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_9ddd0cb71b0d4e90c16ddb9ebd4bcb3e^id=9ddd0cb71b0d4e90c16ddb9ebd4bcb3e"/>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=9ddd0cb71b0d4e90c16ddb9ebd4bcb3e^sys_idNOT IN59dd0cb71b0d4e90c16ddb9ebd4bcb3f"/>
     <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
@@ -4119,10 +4145,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-12 19:18:37</sys_created_on>
         <sys_id>05aecd571b30c61062e50ed2cd4bcb6d</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>e48ac252-c319-4ba1-a6a8-a537ab2aeb97</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4168,10 +4194,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-08-29 20:21:18</sys_created_on>
         <sys_id>186500581b4dfd1062e50ed2cd4bcb81</sys_id>
-        <sys_mod_count>93</sys_mod_count>
+        <sys_mod_count>95</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>8116a60b-868d-44dc-bcdf-c4d362d221fd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4216,10 +4242,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-11 20:22:44</sys_created_on>
         <sys_id>26b398071bf00610c16ddb9ebd4bcbfc</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>b69acb21-2d4d-4096-8208-3bdeb10f77c5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4277,10 +4303,10 @@
         <sys_created_by>John.Schwab</sys_created_by>
         <sys_created_on>2023-09-14 17:33:09</sys_created_on>
         <sys_id>41587dd51bd1b5108c5143f3cc4bcb9d</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:37</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>e84ed48f-bc46-455a-b531-84729270984f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -4375,10 +4401,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-11 20:22:44</sys_created_on>
         <sys_id>6ab398071bf00610c16ddb9ebd4bcbf8</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:36</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:10</sys_updated_on>
         <ui_id>fc8ecd99-8133-4591-a937-d1caa85458d8</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5557,11 +5583,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66f1802d1bdc99908c5143f3cc4bcbe4</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2024-04-11 15:10:42</sys_updated_on>
+        <sys_updated_on>2024-04-11 15:59:15</sys_updated_on>
         <trigger display_value="">aef1802d1bdc99908c5143f3cc4bcbe3</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6250c4691b9c99908c5143f3cc4bcbb3"/>
