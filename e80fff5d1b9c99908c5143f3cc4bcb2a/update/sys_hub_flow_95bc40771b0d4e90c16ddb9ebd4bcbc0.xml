@@ -161,10 +161,10 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-26 14:04:27</sys_created_on>
         <sys_id>6ffcc4771b0d4e90c16ddb9ebd4bcbb8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="CyberArk EPM Email Ingest">e80fff5d1b9c99908c5143f3cc4bcb2a</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-03-26 14:09:28</sys_updated_on>
+        <sys_updated_on>2024-04-08 12:46:19</sys_updated_on>
         <ui_id>b12d755e-3006-4533-bac8-5d9d6d88c73a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6ffcc4771b0d4e90c16ddb9ebd4bcbb8"/>
@@ -630,14 +630,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>95bc40771b0d4e90c16ddb9ebd4bcbc0</sys_id>
         <latest_snapshot>7bfcc4771b0d4e90c16ddb9ebd4bcbf2</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch7-02-08-2024_02-19-2024_0243.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch7-hotfix1-03-05-2024_03-06-2024_1225.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=95bc40771b0d4e90c16ddb9ebd4bcbc0"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=95bc40771b0d4e90c16ddb9ebd4bcbc0^sys_idNOT IN880d08771b0d4e90c16ddb9ebd4bcba9"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"880d08771b0d4e90c16ddb9ebd4bcba9","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="CyberArk Assignment">95bc40771b0d4e90c16ddb9ebd4bcbc0</plan_id>
-        <snapshot>c12ec4f71b0d4e90c16ddb9ebd4bcbbd</snapshot>
+        <snapshot>bdc73ab31b990210c16ddb9ebd4bcb8c</snapshot>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2024-03-26 14:04:29</sys_created_on>
         <sys_domain>global</sys_domain>
